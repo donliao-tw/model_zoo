@@ -1,0 +1,246 @@
+{
+ "name": "head_base_v2",
+ "date": "2026-10-27",
+ "base_mesh": {
+  "source": "MPFB 2 內建標準人體(MakeHuman hm08 基礎網格,CC0)",
+  "macro": {
+   "gender": 1.0,
+   "age": 0.43,
+   "muscle": 0.5,
+   "weight": 0.35,
+   "proportions": 0.8,
+   "height": 0.6,
+   "cupsize": 0.5,
+   "firmness": 0.5,
+   "race": {
+    "asian": 1.0,
+    "caucasian": 0.0,
+    "african": 0.0
+   }
+  },
+  "note": "age 0.43 ≈ 22 歲;體型參數只用來產生起點,最終形狀以 shape_final.npz 為準"
+ },
+ "target_head": {
+  "source": "models/head02/head.glb(AI 生成的頭)",
+  "cranium_correction": "頭頂→眼 : 眼→下巴 壓到 1.0(原 1.25)"
+ },
+ "stage1_head_shape": {
+  "method": "高斯 RBF 平滑變形場貼 AI 頭輪廓",
+  "sigma_m": 0.045,
+  "control_points": 140,
+  "data": "頭+脖子頂點,排除眼皮內側"
+ },
+ "stage2_landmarks": {
+  "method": "mediapipe Face Mesh 0.10.14 正面偵測 + 正面光線反投影,網格雙拉普拉斯內插",
+  "landmarks": 69,
+  "w_landmark": 1000,
+  "free_radius_m": 0.045,
+  "symmetric": true
+ },
+ "stage3_sliders": {
+  "eyes": {
+   "eye-corner1-up": 1.029,
+   "eye-corner2-up": 0.612,
+   "eye-eyefold-down": 0.5,
+   "eye-height1-decr": 0.836,
+   "eye-height2-incr": 0.189,
+   "eye-height3-decr": 0.552,
+   "eye-scale-incr": 1.5,
+   "eye-trans-down": 0.802,
+   "eye-trans-in": 1.5,
+   "eye-trans-out": 0.542,
+   "eye-bag-decr": 1.0,
+   "eye-bag-in": 0.6
+  },
+  "nose": {
+   "nose-base-up": 0.685,
+   "nose-compression-uncompress": 0.337,
+   "nose-curve-concave": 0.049,
+   "nose-hump-decr": 0.243,
+   "nose-nostrils-angle-up": 1.0,
+   "nose-nostrils-width-incr": 0.475,
+   "nose-point-down": 0.071,
+   "nose-point-width-incr": 0.805,
+   "nose-scale-depth-decr": 0.104,
+   "nose-scale-horiz-decr": 0.048,
+   "nose-scale-vert-incr": 1.0,
+   "nose-septumangle-decr": 0.497,
+   "nose-trans-up": 0.409,
+   "nose-volume-decr": 0.298,
+   "nose-width2-decr": 0.144,
+   "nose-width3-decr": 0.894
+  },
+  "mouth": {
+   "mouth-angles-down": 0.248,
+   "mouth-cupidsbow-decr": 0.3,
+   "mouth-cupidsbow-width-incr": 0.285,
+   "mouth-laugh-lines-in": 0.161,
+   "mouth-lowerlip-ext-down": 0.384,
+   "mouth-lowerlip-height-incr": 0.224,
+   "mouth-lowerlip-middle-up": 0.407,
+   "mouth-lowerlip-volume-decr": 0.274,
+   "mouth-lowerlip-width-incr": 0.424,
+   "mouth-scale-horiz-decr": 0.208,
+   "mouth-scale-vert-decr": 0.589,
+   "mouth-trans-up": 0.074,
+   "mouth-upperlip-ext-up": 0.521,
+   "mouth-upperlip-height-incr": 0.593,
+   "mouth-upperlip-volume-incr": 0.071,
+   "mouth-upperlip-width-decr": 0.515
+  },
+  "ears": {
+   "ear-lobe-incr": 0.16,
+   "ear-rot-forward": 0.112,
+   "ear-scale-depth-incr": 0.334,
+   "ear-scale-incr": 0.09,
+   "ear-shape-round": 0.286,
+   "ear-trans-backward": 0.559,
+   "ear-wing-incr": 0.35
+  }
+ },
+ "stage3_notes": {
+  "eyes": "眼線不算眼形;目標寬 31 mm,實際 27.9 × 9.9 mm(受眼球大小限制);滑桿上限 1.5、眼摺類 ≤ 0.5",
+  "sliders_lr": "左右滑桿同值(對稱)"
+ },
+ "head_fix": {
+  "cranium_narrow_x": 0.92,
+  "from": "眼睛高度往上 -5→30 mm 漸進",
+  "face_front_kept": "y < -0.10 不收,-0.065 以後全收",
+  "breadth_cm": "15.2 → 14.0(不含耳朵)"
+ },
+ "chin": {
+  "chin-width-incr": 0.25
+ },
+ "parts": {
+  "eyes": "MPFB high-poly 眼球 + 畫風貼圖 parts/eyes/toon_eye_brown.png(虹膜 ×1.25、雙高光)",
+  "eyelashes": "MPFB eyelashes01,拿掉下睫毛,上睫毛以根部為準縮到 0.5",
+  "eyebrows": "MPFB eyebrow004(可換,候選 001/004/008/012)",
+  "clothes": "無"
+ },
+ "texture": {
+  "file": "basecolor.png",
+  "size": 4096,
+  "method": "AI 頭顏色 EMIT 烘到 MPFB UV(cage 0.012、ray 0.03),眼睛周圍(1.9 cm)與脖子切口清成膚色",
+  "extra": [
+   "腮紅:兩頰與鼻頭,濃度 0.5(頂點權重、面內內插)",
+   "鼻孔/耳朵暗部拉回膚色(AI 深色烘錯位置)",
+   "保留 AI 眼線(使用者要求)"
+  ]
+ },
+ "player_morphs": {
+  "eyes_big": {
+   "eye-scale-incr": 1
+  },
+  "eyes_small": {
+   "eye-scale-decr": 1
+  },
+  "eyes_up": {
+   "eye-trans-up": 1
+  },
+  "eyes_down": {
+   "eye-trans-down": 1
+  },
+  "eyes_apart": {
+   "eye-trans-out": 1
+  },
+  "eyes_together": {
+   "eye-trans-in": 1
+  },
+  "eyes_corner_up": {
+   "eye-corner2-up": 1
+  },
+  "eyes_corner_down": {
+   "eye-corner2-down": 1
+  },
+  "nose_big": {
+   "nose-scale-horiz-incr": 0.6,
+   "nose-scale-vert-incr": 0.5,
+   "nose-volume-incr": 0.5
+  },
+  "nose_small": {
+   "nose-scale-horiz-decr": 0.6,
+   "nose-scale-vert-decr": 0.5,
+   "nose-volume-decr": 0.5
+  },
+  "nose_wide": {
+   "nose-flaring-incr": 1,
+   "nose-nostrils-width-incr": 0.5
+  },
+  "nose_narrow": {
+   "nose-flaring-decr": 1,
+   "nose-nostrils-width-decr": 0.5
+  },
+  "nose_tip_up": {
+   "nose-point-up": 1
+  },
+  "nose_tip_down": {
+   "nose-point-down": 1
+  },
+  "mouth_wide": {
+   "mouth-scale-horiz-incr": 1
+  },
+  "mouth_narrow": {
+   "mouth-scale-horiz-decr": 1
+  },
+  "lips_full": {
+   "mouth-upperlip-volume-incr": 0.8,
+   "mouth-lowerlip-volume-incr": 0.8
+  },
+  "lips_thin": {
+   "mouth-upperlip-volume-decr": 0.8,
+   "mouth-lowerlip-volume-decr": 0.8
+  },
+  "chin_wide": {
+   "chin-width-incr": 1
+  },
+  "chin_narrow": {
+   "chin-width-decr": 1
+  },
+  "chin_long": {
+   "chin-height-incr": 1
+  },
+  "chin_short": {
+   "chin-height-decr": 1
+  },
+  "jaw_wide": {
+   "chin-bones-incr": 1
+  },
+  "jaw_narrow": {
+   "chin-bones-decr": 1
+  },
+  "face_round": {
+   "head-round": 0.8,
+   "cheek-volume-incr": 0.4
+  },
+  "face_slim": {
+   "head-scale-horiz-decr": 0.5,
+   "cheek-volume-decr": 0.5
+  },
+  "ears_big": {
+   "ear-scale-incr": 1
+  },
+  "ears_small": {
+   "ear-scale-decr": 1
+  }
+ },
+ "based_on": "head_base_v1(形狀從 v1 出發,鼻子沿用 v1)",
+ "eye_bag_fix": {
+  "removed_eye_sliders": [
+   "eye-push1-in 0.727",
+   "eye-push1-out 1.5",
+   "eye-push2-in 1.33",
+   "eye-push2-out 1.5"
+  ],
+  "added": {
+   "eye-bag-decr": 1.0,
+   "eye-bag-in": 0.6
+  },
+  "reason": "push 類滑桿把下眼皮往前推,眼袋太重"
+ },
+ "known_issues": [
+  "鼻子沿用 v1:鼻翼皺、鼻尖偏尖(灰模近拍明顯)",
+  "上眼皮邊緣有一條細暗線蓋到眼白/瞳孔上緣(AI 眼線比 MPFB 眼皮邊緣高約 2 mm,重畫眼線進行中)",
+  "睫毛從下方看仍偏長",
+  "耳下一小塊偏淺"
+ ]
+}

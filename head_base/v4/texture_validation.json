@@ -1,0 +1,15 @@
+{
+  "meshes": true,
+  "accessors": true,
+  "nodes": true,
+  "skins": true,
+  "animations": true,
+  "materials": true,
+  "textures": true,
+  "original_binary_preserved": true,
+  "changed_pixels": 50532,
+  "outside_mask_changed_pixels": 0,
+  "max_rgb_delta": 67,
+  "source_sha256": "83328f7f2fe7dda6164bd74058c6d44079ffc27bb84d1f1f2593e99c5b429fdf",
+  "candidate_sha256": "90cfad66c8c3b2f3c0a141643ad1a406163134dfd734ad83a8f91ca592be8a02"
+}

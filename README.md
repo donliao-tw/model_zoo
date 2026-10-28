@@ -17,15 +17,17 @@ SRAM 員工角色(捏臉系統)的模型與參數庫。每個模型都有版本�
 | 模型 | 狀態 | 一句話 |
 |---|---|---|
 | [head_base v1](head_base/v1/) | 停用 | 第一次打包;鼻子破損(灰模近拍可見),不要拿來用 |
-| [head_base v1.1](head_base/v1_1/) | 停用 | 只改 v1 的貼圖(鼻孔污漬變淡),形狀同 v1 |
+| [head_base v1.1](head_base/v1.1/) | 停用 | 只改 v1 的貼圖(鼻孔污漬變淡),形狀同 v1 |
 | [head_base v2](head_base/v2/) | 保留 | 眼袋修正、眉毛、畫風眼睛、淡腮紅;鼻子和眼皮細線未修 |
-| [head_base v4](head_base/v4/) | 使用者指定 | v005 頭型 + Claude 鼻部 R3 + 鼻底貼圖 v002;只有 glb 快照 |
-| [head_base v5](head_base/v5/) | **最新,待確認** | v4 + 鼻翼黑影(法線)修正、耳朵平順、眼線接到眼皮邊緣、睫毛 0.35 |
+| [head_base v3](head_base/v3/) | 保留 | v2 的 v005 頭型 + Claude 鼻部 R3(另一專案 ideal_hero) |
+| [head_base v4](head_base/v4/) | 保留 | v3 + 鼻底貼圖 v002;只有 glb 快照 |
+| [head_base v5](head_base/v5/) | **目前版本** | v4 + 鼻翼黑影(法線)、耳朵平順、眼線接到眼皮邊緣、睫毛 0.35、眉毛對稱、鼻子更挺 |
 
 ## 共通規格
 
 - 網格:MPFB 2 標準人體(MakeHuman hm08 基礎網格,CC0),所有版本頂點數與 UV 相同,所以零件、貼圖、滑桿可以互換。
 - 單位公尺;glb 為 Y 朝上。
+- 命名:每個版本資料夾 `head_base/vN/`,主檔 `head_base_vN_tex.glb`(貼皮)/ `_clay.glb`(灰模)/ `.blend`;研究或試驗放在該版本的 `research/`。
 - 物件:`body`(全身,無衣服頭髮)、`eye_L` / `eye_R`(眼球,原點在球心,轉物件即可轉眼珠)、`lashes`、v2 起有 `brows`。
 - 玩家滑桿:28 個 morph target(14 對),同名 morph 要同時設到所有物件,眼球、睫毛、眉毛才會跟著走。對照表在各版本的 `morphs.json` 與 [`head_base/README.md`](head_base/README.md)。
 - 皮膚貼圖:從 AI 生成的頭(head02)烘到 MPFB UV,4096²。

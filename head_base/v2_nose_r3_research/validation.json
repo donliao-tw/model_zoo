@@ -1,0 +1,12 @@
+{
+  "meshes": true,
+  "accessors": true,
+  "nodes": true,
+  "skins": true,
+  "animations": true,
+  "materials": true,
+  "textures": true,
+  "original_buffer_binary_preserved": true,
+  "source_sha256": "83328f7f2fe7dda6164bd74058c6d44079ffc27bb84d1f1f2593e99c5b429fdf",
+  "candidate_sha256": "6ded7677ee1549ec5056338882349f2486ee23494c8d611b3ce54bbb4b3c9d9f"
+}

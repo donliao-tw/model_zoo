@@ -8,6 +8,7 @@
 3. **耳朵**:耳輪折角、耳後稜線來自之前頭型收窄時耳朵頂點各自位移。以「MPFB 原版耳朵 + 已確認的耳朵滑桿」為準把多餘位移平滑掉;位置不變。見 `ear_before_after.png`(上 V4 灰模、中 V5 灰模、下 V5 貼皮)。
 4. **眼皮細線**:AI 眼線比 MPFB 眼皮邊緣高約 2 mm,中間隔一條皮膚,看起來像蓋在眼白上的第二條線。把眼線往下接到眼皮邊緣(只疊在 V4 貼圖上,不重新烘,V4 的鼻底貼圖保留)。見 `eye_before_after.png`(上 V4、中 睫毛 0.5、下 睫毛 0.35 = V5)。
 5. **睫毛**:0.5 → 0.35。
+6. **眉毛左右對稱**:MPFB eyebrow004 的貼圖左右是兩條不同的眉毛,位置也因皮膚左右差約 1.4 mm 而歪。右眉改成左眉(眉尾上揚那條)的鏡像,形狀與圖案都對稱;離皮膚的距離做平滑修正(逐點貼皮會折疊三角形)。見 `brow_before_after.png`。
 
 ## 檔案
 同 `../README.md` 的格式:`head_base_v5_tex.glb`、`head_base_v5_clay.glb`、`head_base_v5.blend`、`basecolor.png`、`shape_final.npz`、`params.json`(含已知問題)、`morphs.json`。

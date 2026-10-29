@@ -1,0 +1,39 @@
+{
+  "name": "head_base_v6",
+  "date": "2026-10-29",
+  "status": "遊戲工作快照，仍有已知問題",
+  "source": {
+    "model_zoo_v5_commit": "907411c",
+    "ideal_hero_main_commit": "7a86892",
+    "unity_assets_sha256": {
+      "HeadBaseV5.fbx": "7e74870ae8faa5f30b8639b6ca6534fceaacc96d2726f6e64d3bf57e572e8a4a",
+      "V5_Skin.png": "5369f07acfc70e7aaf00c5b8c8c5c59eca2dfbded6c9b0aa5adc1717c95a7293",
+      "V5_Brow.png": "45525f9ad7265bf6878b36639776f365a9490077c235070b716b90c052ab805f",
+      "V5_Eye.png": "9ca6e1d85d691945d8668772b0b26a7f78ce57605d9e620d5812a5aa498ec40e",
+      "V5_Lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239"
+    }
+  },
+  "mesh": {
+    "body_vertices": 14517,
+    "eyes_vertices_each": 276,
+    "morphs_per_mesh": 42,
+    "armature_bones": 52,
+    "unit": "metres"
+  },
+  "implemented": [
+    "眼窩前推4mm已烘焙進FBX",
+    "睫毛上移2mm",
+    "使用可替換手繪眉預設的眉毛網格",
+    "右眼球誤刪修復",
+    "眼周及耳後修整"
+  ],
+  "limitations": [
+    "頭1.15為Unity執行時縮放，不在FBX或GLB中",
+    "basecolor是Unity當時測試版，包含五官測試標記及眼角清理",
+    "對應Unity shader、描邊設定、眉型切換及1.15縮放未包含在GLB",
+    "FBX頂點色遮罩是否保留到GLB尚未驗證，請以原始FBX為準",
+    "嘴唇修色及四體型試作未納入",
+    "shape_final完整19158頂點及HV未重建；僅重建13380可見點",
+    "未在Unity重新匯入V6或測動畫、形態鍵混合"
+  ]
+}

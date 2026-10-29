@@ -1,0 +1,71 @@
+{
+  "armatures_fbx": 1,
+  "armatures_glb": 1,
+  "objects": {
+    "body": {
+      "fbx_vertices": 14517,
+      "glb_vertices": 14517,
+      "basis_nearest_max_m": 1.4726126664754702e-06,
+      "same_order": true,
+      "morph_max_diff_m_if_same_order": 1.4726127208670522e-06,
+      "fbx_keys": 42,
+      "glb_keys": 42,
+      "missing_keys": [],
+      "defaults_nonzero": {},
+      "fbx_color_layers": 1,
+      "glb_color_layers": 2
+    },
+    "brows": {
+      "fbx_vertices": 2692,
+      "glb_vertices": 2692,
+      "basis_nearest_max_m": 3.6454588325796067e-07,
+      "same_order": true,
+      "morph_max_diff_m_if_same_order": 3.6454587646499476e-07,
+      "fbx_keys": 42,
+      "glb_keys": 42,
+      "missing_keys": [],
+      "defaults_nonzero": {},
+      "fbx_color_layers": 1,
+      "glb_color_layers": 2
+    },
+    "eye_L": {
+      "fbx_vertices": 276,
+      "glb_vertices": 276,
+      "basis_nearest_max_m": 3.6448875562200556e-07,
+      "same_order": true,
+      "morph_max_diff_m_if_same_order": 3.6454587646499476e-07,
+      "fbx_keys": 42,
+      "glb_keys": 42,
+      "missing_keys": [],
+      "defaults_nonzero": {},
+      "fbx_color_layers": 1,
+      "glb_color_layers": 2
+    },
+    "eye_R": {
+      "fbx_vertices": 276,
+      "glb_vertices": 276,
+      "basis_nearest_max_m": 3.6454588325796067e-07,
+      "same_order": true,
+      "morph_max_diff_m_if_same_order": 3.6454587646499476e-07,
+      "fbx_keys": 42,
+      "glb_keys": 42,
+      "missing_keys": [],
+      "defaults_nonzero": {},
+      "fbx_color_layers": 1,
+      "glb_color_layers": 2
+    },
+    "lashes": {
+      "fbx_vertices": 130,
+      "glb_vertices": 130,
+      "basis_nearest_max_m": 3.6448875562200556e-07,
+      "same_order": true,
+      "morph_max_diff_m_if_same_order": 3.6454587646499476e-07,
+      "fbx_keys": 42,
+      "glb_keys": 42,
+      "missing_keys": [],
+      "defaults_nonzero": {},
+      "fbx_color_layers": 1,
+      "glb_color_layers": 2
+    }
+  }
+}

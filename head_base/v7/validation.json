@@ -1,0 +1,266 @@
+{
+  "fbx_bones": {
+    "Armature": 52
+  },
+  "exports": {
+    "head_base_v7_tex.glb": {
+      "bones": {
+        "Armature": 52
+      },
+      "objects": {
+        "body": {
+          "fbx_vertices": 70583,
+          "export_vertices": 71538,
+          "basis_or_preview_nearest_max_m": 1.4726126664754702e-06,
+          "morph_max_error_m": 1.4780309324280276e-06,
+          "export_keys": 46,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "brows": {
+          "fbx_vertices": 2692,
+          "export_vertices": 2692,
+          "basis_or_preview_nearest_max_m": 3.6454588325796067e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_L": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 3.6448875562200556e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_R": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 3.6454588325796067e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "lashes": {
+          "fbx_vertices": 130,
+          "export_vertices": 130,
+          "basis_or_preview_nearest_max_m": 3.6448875562200556e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        }
+      }
+    },
+    "head_base_v7_clay.glb": {
+      "bones": {
+        "Armature": 52
+      },
+      "objects": {
+        "body": {
+          "fbx_vertices": 70583,
+          "export_vertices": 71538,
+          "basis_or_preview_nearest_max_m": 1.4726126664754702e-06,
+          "morph_max_error_m": 1.4780309324280276e-06,
+          "export_keys": 46,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "brows": {
+          "fbx_vertices": 2692,
+          "export_vertices": 2692,
+          "basis_or_preview_nearest_max_m": 3.6454588325796067e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_L": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 3.6448875562200556e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_R": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 3.6454588325796067e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "lashes": {
+          "fbx_vertices": 130,
+          "export_vertices": 130,
+          "basis_or_preview_nearest_max_m": 3.6448875562200556e-07,
+          "morph_max_error_m": 3.6454587646499476e-07,
+          "export_keys": 42,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        }
+      }
+    },
+    "head_base_v7_muscular_preview.glb": {
+      "bones": {},
+      "objects": {
+        "body": {
+          "fbx_vertices": 70583,
+          "export_vertices": 71538,
+          "basis_or_preview_nearest_max_m": 8.780312441558635e-07,
+          "morph_max_error_m": null,
+          "export_keys": 0,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "brows": {
+          "fbx_vertices": 2692,
+          "export_vertices": 2692,
+          "basis_or_preview_nearest_max_m": 4.49264462076826e-07,
+          "morph_max_error_m": null,
+          "export_keys": 0,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_L": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 6.379824526447919e-07,
+          "morph_max_error_m": null,
+          "export_keys": 0,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "eye_R": {
+          "fbx_vertices": 276,
+          "export_vertices": 276,
+          "basis_or_preview_nearest_max_m": 6.957820914976764e-07,
+          "morph_max_error_m": null,
+          "export_keys": 0,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        },
+        "lashes": {
+          "fbx_vertices": 130,
+          "export_vertices": 130,
+          "basis_or_preview_nearest_max_m": 4.490327114581305e-07,
+          "morph_max_error_m": null,
+          "export_keys": 0,
+          "missing_keys": [],
+          "all_defaults_zero": true,
+          "fbx_color_layers": [
+            "NoseShade"
+          ],
+          "export_color_layers": [
+            "Color",
+            "Color.001"
+          ]
+        }
+      }
+    }
+  }
+}

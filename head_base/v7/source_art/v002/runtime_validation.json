@@ -1,0 +1,69 @@
+{
+  "main_tool_snapshot": "35c6594",
+  "baseline_art": "1986f50",
+  "bakes": [
+    {
+      "view": "front",
+      "seconds": 31.5,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"front\", \"channel\": \"B\", \"triangles\": 80933, \"texels\": 163835, \"max\": 0.3019607663154602}"
+    },
+    {
+      "view": "back",
+      "seconds": 25.2,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"back\", \"channel\": \"B\", \"triangles\": 62603, \"texels\": 42558, \"max\": 0.3019607663154602}"
+    },
+    {
+      "view": "left",
+      "seconds": 28.9,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"left\", \"channel\": \"B\", \"triangles\": 72636, \"texels\": 57556, \"max\": 0.3019607663154602}"
+    },
+    {
+      "view": "right",
+      "seconds": 28.9,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"right\", \"channel\": \"B\", \"triangles\": 72606, \"texels\": 57701, \"max\": 0.3019607663154602}"
+    }
+  ],
+  "runs": [
+    {
+      "label": "v1",
+      "returncode": 0,
+      "seconds": 9.0,
+      "shots": 18
+    },
+    {
+      "label": "v2_front_only",
+      "returncode": 0,
+      "seconds": 9.0,
+      "shots": 18
+    },
+    {
+      "label": "v2_complete",
+      "returncode": 0,
+      "seconds": 9.2,
+      "shots": 18
+    },
+    {
+      "label": "v2_readable",
+      "returncode": 0,
+      "seconds": 9.4,
+      "shots": 18,
+      "B_multiplier": 1.45
+    },
+    {
+      "label": "v2_readable_strong",
+      "returncode": 0,
+      "seconds": 9.0,
+      "shots": 18,
+      "B_multiplier": 2.0
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "build_unchanged": true,
+  "texture_file": "uv\\v2_complete.png",
+  "rgba_other_channels_unchanged": true,
+  "readability_test": {
+    "atlas": "uv/v2_readable.png",
+    "maximum_B": 112,
+    "only_B_changed": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "tool": "Codex built-in ImageGen",
+  "model_version": "unknown",
+  "calls": 3,
+  "outputs": [
+    "exec-5668b03c-9454-41ee-b61a-4014ad179637.png",
+    "exec-a73625ac-fcb8-46c9-af81-be7d8c1bf7b1.png",
+    "exec-a6b05fdd-9c05-4b1e-a73a-14885b64cd81.png"
+  ],
+  "prompts": [
+    "sources/prompt_front.txt",
+    "sources/prompt_back.txt",
+    "sources/prompt_left.txt"
+  ],
+  "references": "current muscular body orthographic gray templates and generated sources; see actual prompts",
+  "blender_version": "4.5.3 LTS",
+  "registration": "manual anatomical anchors + TPS; native material/compositor, four-view UV max bake",
+  "source_audit": "source_checkpoint.json",
+  "license": "source model follows existing project provenance; new license not independently verified",
+  "art_status": "candidate, user acceptance pending"
+}

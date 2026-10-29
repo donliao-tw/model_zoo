@@ -1,0 +1,56 @@
+{
+  "main_tool_snapshot": "35c6594",
+  "baseline_art": "d816375",
+  "bakes": [
+    {
+      "view": "front",
+      "seconds": 38.1,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"front\", \"channel\": \"B\", \"triangles\": 80933, \"texels\": 75980, \"max\": 0.23921561241149902}"
+    },
+    {
+      "view": "back",
+      "seconds": 30.2,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"back\", \"channel\": \"B\", \"triangles\": 62603, \"texels\": 70665, \"max\": 0.2549019455909729}"
+    },
+    {
+      "view": "left",
+      "seconds": 31.5,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"left\", \"channel\": \"B\", \"triangles\": 72636, \"texels\": 48323, \"max\": 0.29803919792175293}"
+    },
+    {
+      "view": "right",
+      "seconds": 35.2,
+      "result": "BODY_PAINT_BAKE_OK {\"key\": \"body_muscular\", \"view\": \"right\", \"channel\": \"B\", \"triangles\": 72606, \"texels\": 48381, \"max\": 0.29803919792175293}"
+    }
+  ],
+  "runs": [
+    {
+      "label": "v3_strong",
+      "returncode": 0,
+      "seconds": 10.1,
+      "shots": 18
+    },
+    {
+      "label": "v4_balanced",
+      "returncode": 0,
+      "seconds": 35.0,
+      "shots": 18
+    },
+    {
+      "label": "v4_strong",
+      "returncode": 0,
+      "seconds": 10.0,
+      "shots": 18
+    },
+    {
+      "label": "v3_balanced",
+      "returncode": 0,
+      "seconds": 10.7,
+      "shots": 18
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "build_unchanged": true,
+  "texture_file": "uv\\legs_only.png",
+  "rgba_other_channels_unchanged": true
+}

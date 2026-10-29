@@ -1,0 +1,18 @@
+{
+  "art_baseline": "d816375",
+  "main_observed": "9599364",
+  "sha256": {
+    "outputs/unity_v01/body_paint_reference_v001/hero_v5_body_types.glb": "4c2a7176cd626ca8fa799af592957d64538bb5e512640132412acad0abcadada",
+    "outputs/unity_v01/body_paint_reference_v001/template.json": "41bcd4aecec2cd4440ce13ef9e900076b631791431a2c5c5231df480f776564e",
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/HeadBaseV5.fbx": "65d669f38f1154d3297df31f91a4e3eb9a4095bc13577b5809e604cf07fadf77",
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_Skin.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_BodyPaint.png": "0530750fae688b65e4a36eeeb9d98586b03de9b7f5becdb997bc36418be65048"
+  },
+  "matches_v02": {
+    "outputs/unity_v01/body_paint_reference_v001/hero_v5_body_types.glb": true,
+    "outputs/unity_v01/body_paint_reference_v001/template.json": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/HeadBaseV5.fbx": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_Skin.png": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_BodyPaint.png": true
+  }
+}

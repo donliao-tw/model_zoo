@@ -1,0 +1,101 @@
+{
+  "layers": {
+    "front": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 66,
+      "max_shade": 0.25882352941176473,
+      "head_alpha_max": 0,
+      "below_body_alpha_max": 0,
+      "gray_alpha_mean_error_bytes": 1.2042389210019269e-06
+    },
+    "back": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 71,
+      "max_shade": 0.2784313725490196,
+      "head_alpha_max": 0,
+      "below_body_alpha_max": 0,
+      "gray_alpha_mean_error_bytes": 2.4084778420038533e-07
+    },
+    "left": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 76,
+      "max_shade": 0.2980392156862745,
+      "head_alpha_max": 0,
+      "below_body_alpha_max": 0,
+      "gray_alpha_mean_error_bytes": 4.816955684007707e-07
+    },
+    "right": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 76,
+      "max_shade": 0.2980392156862745,
+      "head_alpha_max": 0,
+      "below_body_alpha_max": 0,
+      "gray_alpha_mean_error_bytes": 9.633911368015413e-07
+    }
+  },
+  "atlases": {
+    "v2_front_only": {
+      "size": [
+        2048,
+        2048
+      ],
+      "only_B_changed": true,
+      "maximum_B": 66
+    },
+    "v2_complete": {
+      "size": [
+        2048,
+        2048
+      ],
+      "only_B_changed": true,
+      "maximum_B": 76
+    },
+    "v3_balanced": {
+      "size": [
+        2048,
+        2048
+      ],
+      "only_B_changed": true,
+      "maximum_B": 110
+    },
+    "v3_strong": {
+      "size": [
+        2048,
+        2048
+      ],
+      "only_B_changed": true,
+      "maximum_B": 152
+    }
+  },
+  "reference_sources_still_match_checkpoint": {
+    "outputs/unity_v01/body_paint_reference_v001/hero_v5_body_types.glb": true,
+    "outputs/unity_v01/body_paint_reference_v001/template.json": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/HeadBaseV5.fbx": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_Skin.png": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_BodyPaint.png": true
+  },
+  "actual_game_shots": {
+    "paint_off": 18,
+    "v2_balanced": 18,
+    "v2_strong": 18,
+    "v3_balanced": 18,
+    "v3_strong": 18
+  },
+  "total_shots": 90,
+  "limits": [
+    "Same save/camera/build; idle animation timing may differ. Not pixel-exact A/B.",
+    "Only muscular upper body. Artistic acceptance pending."
+  ]
+}

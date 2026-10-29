@@ -2,7 +2,7 @@
 
 ## 每個版本資料夾的檔案
 
-V6 例外：完整 shape_final.npz 尚不可重建，僅有可見頂點資料；詳 v6/README.md。
+V6／V7例外：完整shape_final.npz/HV未重建。V6僅有部分可見點；V7拓撲已改，不可沿用V6部分資料，以原FBX／Blender為準。詳各版README。
 
 | 檔案 | 用途 |
 |---|---|
@@ -25,7 +25,8 @@ V6 例外：完整 shape_final.npz 尚不可重建，僅有可見頂點資料；
 | v3 | 保留 | v2 頭型 v005 + Claude 鼻部 R3(ideal_hero) | [圖](v3/compare_vs_v2.png) |
 | v4 | 保留 | v3 + 鼻底貼圖 v002 | [圖](v4/compare_vs_v3.png) |
 | v5 | 保留 | v4 + 法線 / 耳朵 / 眼線 / 睫毛 / 眉毛對稱 / 鼻子更挺 | [圖](v5/compare_vs_v4.png) |
-| **v6** | **目前工作快照** | 以 Unity 現行 FBX 與貼圖封存，眼球修復、手繪眉、眼窩及睫毛調整；非最終美術 | [圖](v6/compare_vs_v5.png) |
+| v6 | 保留 | 以 Unity 現行 FBX 與貼圖封存，眼球修復、手繪眉、眼窩及睫毛調整；非最終美術 | [圖](v6/compare_vs_v5.png) |
+| **v7** | **目前工作快照；身體畫層已核可** | 現用遊戲模型與壯碩胸背手臂大小腿畫層，1.45／2倍；未選定正式預設 | [圖](v7/compare_vs_v6.png) |
 
 > **2026-10-28 修正**:v1、v1.1、v2、v5 的 glb / .blend 先前把 28 個捏臉 morph 的預設值存成 1(全部拉滿疊加),直接打開會看到巫婆鼻等變形。已全部改回 0(glb 只改 JSON 的預設權重,模型資料不變)。v4 沒有這個問題。對照 `v5/morph_default_fix.png`。
 

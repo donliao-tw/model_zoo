@@ -1,0 +1,154 @@
+{
+  "eyes_big": {
+    "eye-scale-incr": 1
+  },
+  "eyes_small": {
+    "eye-scale-decr": 1
+  },
+  "eyes_up": {
+    "eye-trans-up": 1
+  },
+  "eyes_down": {
+    "eye-trans-down": 1
+  },
+  "eyes_apart": {
+    "eye-trans-out": 1
+  },
+  "eyes_together": {
+    "eye-trans-in": 1
+  },
+  "eyes_corner_up": {
+    "eye-corner2-up": 1
+  },
+  "eyes_corner_down": {
+    "eye-corner2-down": 1
+  },
+  "nose_big": {
+    "nose-scale-horiz-incr": 0.6,
+    "nose-scale-vert-incr": 0.5,
+    "nose-volume-incr": 0.5
+  },
+  "nose_small": {
+    "nose-scale-horiz-decr": 0.6,
+    "nose-scale-vert-decr": 0.5,
+    "nose-volume-decr": 0.5
+  },
+  "nose_wide": {
+    "nose-flaring-incr": 1,
+    "nose-nostrils-width-incr": 0.5
+  },
+  "nose_narrow": {
+    "nose-flaring-decr": 1,
+    "nose-nostrils-width-decr": 0.5
+  },
+  "nose_tip_up": {
+    "nose-point-up": 1
+  },
+  "nose_tip_down": {
+    "nose-point-down": 1
+  },
+  "mouth_wide": {
+    "mouth-scale-horiz-incr": 1
+  },
+  "mouth_narrow": {
+    "mouth-scale-horiz-decr": 1
+  },
+  "lips_full": {
+    "mouth-upperlip-volume-incr": 0.8,
+    "mouth-lowerlip-volume-incr": 0.8
+  },
+  "lips_thin": {
+    "mouth-upperlip-volume-decr": 0.8,
+    "mouth-lowerlip-volume-decr": 0.8
+  },
+  "chin_wide": {
+    "chin-width-incr": 1
+  },
+  "chin_narrow": {
+    "chin-width-decr": 1
+  },
+  "chin_long": {
+    "chin-height-incr": 1
+  },
+  "chin_short": {
+    "chin-height-decr": 1
+  },
+  "jaw_wide": {
+    "chin-bones-incr": 1
+  },
+  "jaw_narrow": {
+    "chin-bones-decr": 1
+  },
+  "face_round": {
+    "head-round": 0.8,
+    "cheek-volume-incr": 0.4
+  },
+  "face_slim": {
+    "head-scale-horiz-decr": 0.5,
+    "cheek-volume-decr": 0.5
+  },
+  "ears_big": {
+    "ear-scale-incr": 1
+  },
+  "ears_small": {
+    "ear-scale-decr": 1
+  },
+  "eye_outer_up": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "eye_outer_down": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "upper_lid_close": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "upper_lid_open": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "lower_lid_close": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "lower_lid_open": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_up": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_down": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_thick": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_thin": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_inner_up": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_inner_down": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_outer_up": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "brow_outer_down": {
+    "來源": "Unity FBX 既有形態鍵；配方未重建"
+  },
+  "body_thin": {
+    "來源": "目前Unity FBX既有形態鍵；生成配方未重建",
+    "適用": "僅body"
+  },
+  "body_lean": {
+    "來源": "目前Unity FBX既有形態鍵；生成配方未重建",
+    "適用": "僅body"
+  },
+  "body_muscular": {
+    "來源": "目前Unity FBX既有形態鍵；生成配方未重建",
+    "適用": "僅body"
+  },
+  "body_fat": {
+    "來源": "目前Unity FBX既有形態鍵；生成配方未重建",
+    "適用": "僅body"
+  }
+}

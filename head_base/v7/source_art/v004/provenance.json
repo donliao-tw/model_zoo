@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "art_baseline": "d816375",
+  "main_observed": "9599364",
+  "native_tool": "Blender 4.5.3 LTS",
+  "generator": "Codex built-in ImageGen",
+  "model_version": "unknown",
+  "calls": 3,
+  "actual_prompts": [
+    "sources/prompt_front.txt",
+    "sources/prompt_back.txt",
+    "sources/prompt_side.txt"
+  ],
+  "generated_files": [
+    "exec-d4ca12e0-1c1b-44c0-a861-19615ad2d756.png",
+    "exec-06efee86-cd3c-47c3-a38b-6d2bd3584831.png",
+    "exec-7ea09d77-3077-418f-90f9-bf1930b66426.png"
+  ],
+  "reference_roles": "Current muscular front/back/left gray models for anatomy; v03 front artwork for style only.",
+  "registration": "Measured existing hip/knee/ankle; manual source landmarks TPS; right side uses left source.",
+  "UV_merge": "max(v03_B, legs_B * matching_strength), other channels unchanged",
+  "license": "Inherited model/reference provenance; no new independent third-party license audit.",
+  "status": "candidate; user acceptance pending"
+}

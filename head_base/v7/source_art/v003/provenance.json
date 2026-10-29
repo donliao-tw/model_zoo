@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "art_baseline": "90b3557",
+  "source_main": "9599364",
+  "tool_snapshot": "35c6594",
+  "tool": "Codex built-in ImageGen",
+  "model_version": "unknown",
+  "new_calls": 2,
+  "edit_targets": [
+    "../v5_body_paint_v002/sources/front.png",
+    "../v5_body_paint_v002/sources/left.png"
+  ],
+  "actual_prompts": [
+    "sources/prompt_front.txt",
+    "sources/prompt_side.txt"
+  ],
+  "new_generated_files": [
+    "exec-d49dafce-3c82-4887-967f-401a0ef06a32.png",
+    "exec-d40b74ae-4c9e-463c-9143-6a1ce01a3636.png"
+  ],
+  "back_source": "inherited unchanged from v002; previous prompt/provenance applies",
+  "license": "Existing model/reference provenance applies; no new third-party license independently verified.",
+  "native_tool": "Blender 4.5.3 LTS",
+  "native_processing": "TPS registration unchanged; local anatomical attenuation; Gaussian 5px compositor; scalar UV B max bake. Color straight-alpha export corrected with native premultiply node.",
+  "first_attempt": "attempt1; too faint at distance; preserved, not adopted",
+  "second_attempt": "same artwork, luminance threshold .82 / span .42; no model edits",
+  "status": "candidate; final artistic acceptance pending"
+}

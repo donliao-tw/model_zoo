@@ -1,0 +1,20 @@
+{
+  "art_baseline": "202b406",
+  "source_art_commit": "4e0f660",
+  "main_observed": "9599364",
+  "model_zoo_baseline": "7a3999e",
+  "sha256": {
+    "HeadBaseV5.fbx": "65d669f38f1154d3297df31f91a4e3eb9a4095bc13577b5809e604cf07fadf77",
+    "V5_BodyPaint.png": "0530750fae688b65e4a36eeeb9d98586b03de9b7f5becdb997bc36418be65048",
+    "V5_Brow.png": "45525f9ad7265bf6878b36639776f365a9490077c235070b716b90c052ab805f",
+    "V5_Eye.png": "9ca6e1d85d691945d8668772b0b26a7f78ce57605d9e620d5812a5aa498ec40e",
+    "V5_Lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
+    "V5_Skin.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c"
+  },
+  "body_paint_sha256": {
+    "body_paint_balanced.png": "a1671a906d86ad2a7c5b9c0c66f32b32c34ac07a6e5683fff1b87771d707c674",
+    "body_paint_legs_unscaled.png": "73f1b110123974c96525cec2f7cf41e00504262039c7961ea500414443459bcd",
+    "body_paint_strong.png": "f02df19d8c6a286ff857d553ac9b9409c9a876ce3ef16a74c921301f97408fcc"
+  },
+  "note": "Main has unrelated active Claude edits; only unchanged FBX/textures copied and verified. No working code included."
+}

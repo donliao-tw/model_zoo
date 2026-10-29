@@ -1,0 +1,74 @@
+{
+  "source_unchanged": {
+    "outputs/unity_v01/body_paint_reference_v001/hero_v5_body_types.glb": true,
+    "outputs/unity_v01/body_paint_reference_v001/template.json": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/HeadBaseV5.fbx": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_Skin.png": true,
+    "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/V5_BodyPaint.png": true
+  },
+  "layers": {
+    "front": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 62,
+      "upper_region_max": 0,
+      "foot_region_max": 0,
+      "mask_error_mean": 4.816955684007707e-07
+    },
+    "back": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 65,
+      "upper_region_max": 0,
+      "foot_region_max": 0,
+      "mask_error_mean": 7.225433526011561e-07
+    },
+    "left": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 76,
+      "upper_region_max": 0,
+      "foot_region_max": 0,
+      "mask_error_mean": 7.225433526011561e-07
+    },
+    "right": {
+      "size": [
+        1730,
+        2400
+      ],
+      "alpha_max": 76,
+      "upper_region_max": 0,
+      "foot_region_max": 0,
+      "mask_error_mean": 7.225433526011561e-07
+    }
+  },
+  "channels": {
+    "v4_balanced": {
+      "other_channels_unchanged": true,
+      "unchanged_outside_leg_mask": true,
+      "changed_texels": 278431
+    },
+    "v4_strong": {
+      "other_channels_unchanged": true,
+      "unchanged_outside_leg_mask": true,
+      "changed_texels": 278431
+    }
+  },
+  "runtime_shots": {
+    "v3_balanced": 18,
+    "v3_strong": 18,
+    "v4_balanced": 18,
+    "v4_strong": 18
+  },
+  "total": 72,
+  "geometric_region": [
+    0.07503646612167358,
+    0.8999201655387878
+  ]
+}

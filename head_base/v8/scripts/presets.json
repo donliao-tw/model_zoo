@@ -1,0 +1,8 @@
+{
+ "blink":    {"eye-left-closure": 1, "eye-right-closure": 1},
+ "smile":    {"mouth-corner-puller": 0.8, "eye-left-slit": 0.3, "eye-right-slit": 0.3},
+ "laugh":    {"mouth-corner-puller": 0.9, "mouth-open": 0.35, "eye-left-slit": 0.5, "eye-right-slit": 0.5, "eyebrows-left-up": 0.3, "eyebrows-right-up": 0.3},
+ "sad":      {"eyebrows-left-inner-up": 1, "eyebrows-right-inner-up": 1, "mouth-depression": 0.6},
+ "angry":    {"eyebrows-left-down": 1, "eyebrows-right-down": 1, "mouth-compression": 0.5, "nose-left-elevation": 0.4, "nose-right-elevation": 0.4},
+ "surprise": {"eyebrows-left-up": 1, "eyebrows-right-up": 1, "eye-left-opened-up": 1, "eye-right-opened-up": 1, "mouth-open": 0.3}
+}

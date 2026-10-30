@@ -1,0 +1,336 @@
+{
+ "note": "表情形態鍵:同名鍵要同時設到 body / brows / lashes。值 0..1,預設 0。presets 為建議組合。",
+ "units": {
+  "ex_eye_left_closure": {
+   "source": "MPFB expression/units/asian/eye-left-closure.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 15.9,
+   "suggested_max": 1.0
+  },
+  "ex_eye_left_opened_up": {
+   "source": "MPFB expression/units/asian/eye-left-opened-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 3.6,
+   "suggested_max": 1.0
+  },
+  "ex_eye_left_slit": {
+   "source": "MPFB expression/units/asian/eye-left-slit.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 5.6,
+   "suggested_max": 1.0
+  },
+  "ex_eye_right_closure": {
+   "source": "MPFB expression/units/asian/eye-right-closure.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 15.9,
+   "suggested_max": 1.0
+  },
+  "ex_eye_right_opened_up": {
+   "source": "MPFB expression/units/asian/eye-right-opened-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 3.6,
+   "suggested_max": 1.0
+  },
+  "ex_eye_right_slit": {
+   "source": "MPFB expression/units/asian/eye-right-slit.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 3.6,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_left_down": {
+   "source": "MPFB expression/units/asian/eyebrows-left-down.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 6.5,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_left_extern_up": {
+   "source": "MPFB expression/units/asian/eyebrows-left-extern-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 8.5,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_left_inner_up": {
+   "source": "MPFB expression/units/asian/eyebrows-left-inner-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 5.2,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_left_up": {
+   "source": "MPFB expression/units/asian/eyebrows-left-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 5.0,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_right_down": {
+   "source": "MPFB expression/units/asian/eyebrows-right-down.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 6.5,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_right_extern_up": {
+   "source": "MPFB expression/units/asian/eyebrows-right-extern-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 8.5,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_right_inner_up": {
+   "source": "MPFB expression/units/asian/eyebrows-right-inner-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 5.2,
+   "suggested_max": 1.0
+  },
+  "ex_eyebrows_right_up": {
+   "source": "MPFB expression/units/asian/eyebrows-right-up.target.gz",
+   "objects": [
+    "body",
+    "brows",
+    "lashes"
+   ],
+   "max_move_mm": 5.0,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_compression": {
+   "source": "MPFB expression/units/asian/mouth-compression.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 8.7,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_corner_puller": {
+   "source": "MPFB expression/units/asian/mouth-corner-puller.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 12.8,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_depression_retraction": {
+   "source": "MPFB expression/units/asian/mouth-depression-retraction.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 10.6,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_depression": {
+   "source": "MPFB expression/units/asian/mouth-depression.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 8.5,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_elevation": {
+   "source": "MPFB expression/units/asian/mouth-elevation.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 7.9,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_eversion": {
+   "source": "MPFB expression/units/asian/mouth-eversion.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 7.3,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_open": {
+   "source": "MPFB expression/units/asian/mouth-open.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 41.4,
+   "suggested_max": 0.5
+  },
+  "ex_mouth_parling": {
+   "source": "MPFB expression/units/asian/mouth-parling.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 3.4,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_part_later": {
+   "source": "MPFB expression/units/asian/mouth-part-later.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 13.0,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_protusion": {
+   "source": "MPFB expression/units/asian/mouth-protusion.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 16.7,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_pursing": {
+   "source": "MPFB expression/units/asian/mouth-pursing.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 15.8,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_retraction": {
+   "source": "MPFB expression/units/asian/mouth-retraction.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 8.4,
+   "suggested_max": 1.0
+  },
+  "ex_mouth_upward_retraction": {
+   "source": "MPFB expression/units/asian/mouth-upward-retraction.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 12.5,
+   "suggested_max": 1.0
+  },
+  "ex_nose_compression": {
+   "source": "MPFB expression/units/asian/nose-compression.target.gz",
+   "objects": [
+    "body",
+    "brows"
+   ],
+   "max_move_mm": 1.7,
+   "suggested_max": 1.0
+  },
+  "ex_nose_depression": {
+   "source": "MPFB expression/units/asian/nose-depression.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 4.1,
+   "suggested_max": 1.0
+  },
+  "ex_nose_left_dilatation": {
+   "source": "MPFB expression/units/asian/nose-left-dilatation.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 1.4,
+   "suggested_max": 1.0
+  },
+  "ex_nose_left_elevation": {
+   "source": "MPFB expression/units/asian/nose-left-elevation.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 5.0,
+   "suggested_max": 1.0
+  },
+  "ex_nose_right_dilatation": {
+   "source": "MPFB expression/units/asian/nose-right-dilatation.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 1.4,
+   "suggested_max": 1.0
+  },
+  "ex_nose_right_elevation": {
+   "source": "MPFB expression/units/asian/nose-right-elevation.target.gz",
+   "objects": [
+    "body"
+   ],
+   "max_move_mm": 5.0,
+   "suggested_max": 1.0
+  }
+ },
+ "presets": {
+  "blink": {
+   "ex_eye_left_closure": 1,
+   "ex_eye_right_closure": 1
+  },
+  "smile": {
+   "ex_mouth_corner_puller": 0.8,
+   "ex_eye_left_slit": 0.3,
+   "ex_eye_right_slit": 0.3
+  },
+  "laugh": {
+   "ex_mouth_corner_puller": 0.9,
+   "ex_mouth_open": 0.35,
+   "ex_eye_left_slit": 0.5,
+   "ex_eye_right_slit": 0.5,
+   "ex_eyebrows_left_up": 0.3,
+   "ex_eyebrows_right_up": 0.3
+  },
+  "sad": {
+   "ex_eyebrows_left_inner_up": 1,
+   "ex_eyebrows_right_inner_up": 1,
+   "ex_mouth_depression": 0.6
+  },
+  "angry": {
+   "ex_eyebrows_left_down": 1,
+   "ex_eyebrows_right_down": 1,
+   "ex_mouth_compression": 0.5,
+   "ex_nose_left_elevation": 0.4,
+   "ex_nose_right_elevation": 0.4
+  },
+  "surprise": {
+   "ex_eyebrows_left_up": 1,
+   "ex_eyebrows_right_up": 1,
+   "ex_eye_left_opened_up": 1,
+   "ex_eye_right_opened_up": 1,
+   "ex_mouth_open": 0.3
+  }
+ }
+}

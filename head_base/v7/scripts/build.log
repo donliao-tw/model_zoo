@@ -1,76 +1,73 @@
 FBX version: 7400
 Info: Saved as "head_base_v7.blend"
 INFO Draco mesh compression is available, use library at D:\workspace\ideal_hero\work\tools\blender-4.5.3-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
-23:51:21 | INFO: Starting glTF 2.0 export
-23:51:21 | INFO: Extracting primitive: base
-23:51:31 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:35 | INFO: Primitives created: 1
-23:51:35 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
-23:51:36 | INFO: Extracting primitive: BrowSurface
-23:51:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
-23:51:36 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:36 | INFO: Primitives created: 1
-23:51:36 | INFO: Extracting primitive: high-poly
-23:51:36 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:36 | INFO: Primitives created: 1
-23:51:36 | INFO: Extracting primitive: high-poly.002
-23:51:36 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:36 | INFO: Primitives created: 1
-23:51:36 | INFO: Extracting primitive: eyelashes01
-23:51:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
-23:51:36 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:36 | INFO: Primitives created: 1
-23:51:38 | INFO: Finished glTF 2.0 export in 17.168644666671753 s
+09:12:44 | INFO: Starting glTF 2.0 export
+09:12:44 | INFO: Extracting primitive: base
+09:12:53 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:12:57 | INFO: Primitives created: 1
+09:12:57 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+09:12:58 | INFO: Extracting primitive: BrowSurface
+09:12:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:12:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:12:58 | INFO: Primitives created: 1
+09:12:58 | INFO: Extracting primitive: high-poly
+09:12:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:12:58 | INFO: Primitives created: 1
+09:12:58 | INFO: Extracting primitive: high-poly.002
+09:12:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:12:58 | INFO: Primitives created: 1
+09:12:58 | INFO: Extracting primitive: eyelashes01
+09:12:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:12:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:12:58 | INFO: Primitives created: 1
+09:12:59 | INFO: Finished glTF 2.0 export in 15.16278886795044 s
 
-23:51:38 | INFO: Starting glTF 2.0 export
-23:51:38 | INFO: Extracting primitive: base
-23:51:47 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:50 | INFO: Primitives created: 1
-23:51:50 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
-23:51:51 | INFO: Extracting primitive: BrowSurface
-23:51:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:51 | INFO: Primitives created: 1
-23:51:51 | INFO: Extracting primitive: high-poly
-23:51:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:51 | INFO: Primitives created: 1
-23:51:51 | INFO: Extracting primitive: high-poly.002
-23:51:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:51 | INFO: Primitives created: 1
-23:51:51 | INFO: Extracting primitive: eyelashes01
-23:51:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:51 | INFO: Primitives created: 1
-23:51:52 | INFO: Finished glTF 2.0 export in 13.551058292388916 s
+09:12:59 | INFO: Starting glTF 2.0 export
+09:12:59 | INFO: Extracting primitive: base
+09:13:08 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:12 | INFO: Primitives created: 1
+09:13:12 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+09:13:12 | INFO: Extracting primitive: BrowSurface
+09:13:13 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:13 | INFO: Primitives created: 1
+09:13:13 | INFO: Extracting primitive: high-poly
+09:13:13 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:13 | INFO: Primitives created: 1
+09:13:13 | INFO: Extracting primitive: high-poly.002
+09:13:13 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:13 | INFO: Primitives created: 1
+09:13:13 | INFO: Extracting primitive: eyelashes01
+09:13:13 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:13 | INFO: Primitives created: 1
+09:13:14 | INFO: Finished glTF 2.0 export in 14.421290636062622 s
 Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:33:33)
-Read blend: "D:\workspace\ideal_hero_art\work\zoo_v7_stage\head_base_v7.blend"
-Fra:1 Mem:387.69M (Peak 388.75M) | Time:385:12:55.89 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | eye_L
-Fra:1 Mem:387.69M (Peak 388.75M) | Time:385:12:55.89 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | eye_R
-Fra:1 Mem:387.70M (Peak 388.75M) | Time:385:12:55.89 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | body
-Fra:1 Mem:387.71M (Peak 388.75M) | Time:385:12:55.89 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | lashes
-Fra:1 Mem:388.08M (Peak 388.75M) | Time:385:12:55.89 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | brows
-Fra:1 Mem:405.74M (Peak 408.93M) | Time:385:12:55.92 | Mem:0.00M, Peak:0.00M | Scene | Initializing
-Fra:1 Mem:405.73M (Peak 408.93M) | Time:385:12:55.92 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading V5_Eye
-Fra:1 Mem:405.73M (Peak 408.93M) | Time:385:12:55.92 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading V5_Brow
+Read blend: "C:\Users\user\AppData\Local\Temp\claude\D--workspace-ideal-hero\10c51f56-1c77-42c4-8fed-691439bae1eb\scratchpad\zoo_v7\head_base_v7.blend"
+Fra:1 Mem:412.30M (Peak 413.36M) | Time:394:34:18.74 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | eye_L
+Fra:1 Mem:412.30M (Peak 413.36M) | Time:394:34:18.74 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | lashes
+Fra:1 Mem:430.34M (Peak 433.53M) | Time:394:34:18.93 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:430.34M (Peak 433.53M) | Time:394:34:18.93 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading V5_Eye
+Fra:1 Mem:430.34M (Peak 433.53M) | Time:394:34:18.93 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading V5_Brow
 
 Info: Baking map saved to internal image, save it externally or pack it
-23:51:54 | INFO: Starting glTF 2.0 export
-23:51:54 | INFO: Extracting primitive: high-poly.001
-23:51:54 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:54 | INFO: Primitives created: 1
-23:51:54 | INFO: Extracting primitive: high-poly.003
-23:51:54 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:54 | INFO: Primitives created: 1
-23:51:54 | INFO: Extracting primitive: base.001
-23:51:55 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:55 | INFO: Primitives created: 1
-23:51:55 | INFO: Extracting primitive: BrowSurface.001
-23:51:55 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
-23:51:55 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:55 | INFO: Primitives created: 1
-23:51:55 | INFO: Extracting primitive: eyelashes01.001
-23:51:55 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
-23:51:55 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-23:51:55 | INFO: Primitives created: 1
-23:51:55 | INFO: Finished glTF 2.0 export in 0.7325272560119629 s
+09:13:16 | INFO: Starting glTF 2.0 export
+09:13:16 | INFO: Extracting primitive: high-poly.001
+09:13:16 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:16 | INFO: Primitives created: 1
+09:13:16 | INFO: Extracting primitive: high-poly.003
+09:13:16 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:16 | INFO: Primitives created: 1
+09:13:16 | INFO: Extracting primitive: base.001
+09:13:16 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:16 | INFO: Primitives created: 1
+09:13:16 | INFO: Extracting primitive: BrowSurface.001
+09:13:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:13:17 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:17 | INFO: Primitives created: 1
+09:13:17 | INFO: Extracting primitive: eyelashes01.001
+09:13:17 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:13:17 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:13:17 | INFO: Primitives created: 1
+09:13:17 | INFO: Finished glTF 2.0 export in 0.587183952331543 s
 
 V7_PACKAGE_OK
 

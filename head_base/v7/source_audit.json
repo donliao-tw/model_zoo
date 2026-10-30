@@ -16,5 +16,11 @@
     "body_paint_legs_unscaled.png": "73f1b110123974c96525cec2f7cf41e00504262039c7961ea500414443459bcd",
     "body_paint_strong.png": "f02df19d8c6a286ff857d553ac9b9409c9a876ce3ef16a74c921301f97408fcc"
   },
-  "note": "Main has unrelated active Claude edits; only unchanged FBX/textures copied and verified. No working code included."
+  "note": "Main has unrelated active Claude edits; only unchanged FBX/textures copied and verified. No working code included.",
+  "update_2026_10_30": {
+    "ideal_hero_commit": "da407ae",
+    "HeadBaseV5.fbx": "df782d02222b282cdfd9e467df8832f1c41989aa9295bc68d81cfc9dd85bb38d",
+    "textures": "V5_Skin/Brow/Eye/Lashes unchanged; V5_BodyPaint == body_paint_balanced.png",
+    "by": "Claude Code"
+  }
 }

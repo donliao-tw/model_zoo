@@ -49,7 +49,17 @@
         "body_thin",
         "body_lean",
         "body_muscular",
-        "body_fat"
+        "body_fat",
+        "fix_armup_normal_L",
+        "fix_armup_normal_R",
+        "fix_armup_thin_L",
+        "fix_armup_thin_R",
+        "fix_armup_lean_L",
+        "fix_armup_lean_R",
+        "fix_armup_muscular_L",
+        "fix_armup_muscular_R",
+        "fix_armup_fat_L",
+        "fix_armup_fat_R"
       ],
       "color_attributes": [
         "NoseShade"

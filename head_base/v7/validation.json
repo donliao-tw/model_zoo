@@ -13,7 +13,7 @@
           "export_vertices": 71538,
           "basis_or_preview_nearest_max_m": 1.4726126664754702e-06,
           "morph_max_error_m": 1.4780309324280276e-06,
-          "export_keys": 46,
+          "export_keys": 56,
           "missing_keys": [],
           "all_defaults_zero": true,
           "fbx_color_layers": [
@@ -100,7 +100,7 @@
           "export_vertices": 71538,
           "basis_or_preview_nearest_max_m": 1.4726126664754702e-06,
           "morph_max_error_m": 1.4780309324280276e-06,
-          "export_keys": 46,
+          "export_keys": 56,
           "missing_keys": [],
           "all_defaults_zero": true,
           "fbx_color_layers": [

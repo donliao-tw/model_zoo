@@ -1,8 +1,55 @@
 # head_base:可捏臉的男性底模
 
-## 每個版本資料夾的檔案
+## 新版本怎麼上架（v7 起統一）
 
-V6／V7／V8例外：完整shape_final.npz/HV未重建。V6僅有部分可見點；V7拓撲已改，不可沿用V6部分資料，以原FBX／Blender為準。詳各版README。
+不管是哪個 session、哪個分支改的模型，上架都照這份。只寫模型本身，不寫遊戲怎麼整合。
+
+### 資料夾
+
+```
+head_base/vN/
+  README.md                固定 6 段，見下
+  manifest.json            欄位見下；files 由 scripts/write_manifest.py 產生
+  head_base_vN.fbx         來源 FBX 原樣副本（v7、v8 叫 head_base_vN_game.fbx）
+  head_base_vN.blend       可編輯母檔，貼圖打包，所有形態鍵預設 0
+  head_base_vN_tex.glb     貼皮交換檔
+  head_base_vN_clay.glb    灰模交換檔
+  *.png                    貼圖
+  compare_vs_v<上一版>.png 同鏡頭比較：至少正面、斜側、側面、灰模
+  review/                  其他檢查圖
+  scripts/                 重做用的腳本
+```
+
+**不覆蓋舊版**：改了就開新版本號。
+
+### README 的 6 段
+
+開頭一行寫標題、日期、誰做的、狀態（保留／目前工作快照／停用，以及使用者核可了什麼）。
+
+1. **從哪版來**：上一版、來源 repo／commit／檔案和 SHA；附檔案表。
+2. **改了什麼**：和上一版比，逐項列；也寫沒變的部分。形態鍵數量有變就列表。
+3. **已驗證**：實際跑過、看過的，附數字。
+4. **未驗證**：沒做的檢查，照實寫。
+5. **已知問題**：已知但沒修的。
+6. **怎麼重做**：指令和腳本。
+
+### manifest.json 欄位
+
+| 欄位 | 內容 |
+|---|---|
+| `version`、`date`、`made_by`、`previous`、`status` | 同 README 開頭 |
+| `source` | `repo`、`commit`、`file`、`sha256`（可加 `note`） |
+| `bones` | 骨頭數 |
+| `meshes` | 每個物件的 `verts`、`keys`（形態鍵數，不含 Basis） |
+| `changes`、`verified`、`not_verified`、`known_issues` | 同 README 第 2～5 段的摘要 |
+| `extra` | 選填，該版特有的欄位 |
+| `files` | 每個檔案的 SHA-256（腳本自動算；文字檔以 LF 換行計算，Windows 簽出成 CRLF 時會不同） |
+
+產生方式：`python head_base/v9/scripts/write_manifest.py head_base/vN <spec.json>`，spec 寫上面除了 `files` 以外的欄位。
+
+## 舊版資料夾的檔案（v1～v6）
+
+V6／V7／V8／V9例外：完整shape_final.npz/HV未重建。V6僅有部分可見點；V7拓撲已改，不可沿用V6部分資料，以原FBX／Blender為準。詳各版README。
 
 | 檔案 | 用途 |
 |---|---|
@@ -27,7 +74,8 @@ V6／V7／V8例外：完整shape_final.npz/HV未重建。V6僅有部分可見點
 | v5 | 保留 | v4 + 法線 / 耳朵 / 眼線 / 睫毛 / 眉毛對稱 / 鼻子更挺 | [圖](v5/compare_vs_v4.png) |
 | v6 | 保留 | 以 Unity 現行 FBX 與貼圖封存，眼球修復、手繪眉、眼窩及睫毛調整；非最終美術 | [圖](v6/compare_vs_v5.png) |
 | v7 | 保留；身體畫層已核可 | 現用遊戲模型與壯碩胸背手臂大小腿畫層，1.45／2倍；10/30 更新重綁權重與舉手修正鍵 | [圖](v7/compare_vs_v6.png) |
-| **v8** | **目前工作快照** | v7 + 33 個 MPFB 表情形態鍵（ex_*）；閉眼眼皮貼圖待重畫、口腔零件未做 | [圖](v8/compare_vs_v7.png) |
+| v8 | 保留 | v7 + 33 個 MPFB 表情形態鍵（ex_*）；閉眼眼皮貼圖待重畫、口腔零件未做 | [圖](v8/compare_vs_v7.png) |
+| **v9** | **目前工作快照** | 遊戲現用模型：閉眼重做＋6 個閉眼修正鍵、超圓體型、五型手繪皮膚、內褲；其他 29 個表情鍵未重審 | [圖](v9/compare_vs_v8.png) |
 
 > **2026-10-28 修正**:v1、v1.1、v2、v5 的 glb / .blend 先前把 28 個捏臉 morph 的預設值存成 1(全部拉滿疊加),直接打開會看到巫婆鼻等變形。已全部改回 0(glb 只改 JSON 的預設權重,模型資料不變)。v4 沒有這個問題。對照 `v5/morph_default_fix.png`。
 

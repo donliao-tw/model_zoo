@@ -1,0 +1,81 @@
+{
+ "version": "v8",
+ "date": "2026-10-30",
+ "made_by": "Codex",
+ "previous": "v7",
+ "status": "保留；表情鍵研究快照（閉眼已由 v9 取代）",
+ "source": {
+  "repo": "model_zoo",
+  "file": "head_base/v7/head_base_v7.blend",
+  "note": "v7 母檔加上 MPFB 表情單元轉移"
+ },
+ "bones": 52,
+ "meshes": {
+  "body": {
+   "verts": 70583,
+   "keys": 89
+  },
+  "brows": {
+   "verts": 2692,
+   "keys": 57
+  },
+  "eye_L": {
+   "verts": 276,
+   "keys": 42
+  },
+  "eye_R": {
+   "verts": 276,
+   "keys": 42
+  },
+  "lashes": {
+   "verts": 130,
+   "keys": 56
+  }
+ },
+ "changes": [
+  "新增 33 個 MPFB 表情鍵 ex_*（眼 6、眉 8、嘴 13、鼻 6），同名鍵設在 body/brows/lashes",
+  "新增 expressions.json：來源、最大位移、建議上限、6 個表情組合"
+ ],
+ "verified": [
+  ".blend 靜止姿勢和 v7 差 0 mm",
+  "FBX 重新匯入：52 骨、鍵預設 0、靜止姿勢差 0.0005 mm",
+  "glb 預設權重全部 0"
+ ],
+ "not_verified": [
+  "FBX 未在 Unity 驗收",
+  "42 個捏臉鍵和表情鍵疊加",
+  "表情只在中性體型上看過"
+ ],
+ "known_issues": [
+  "閉眼時上眼皮整片深色（貼圖眼線畫在眼皮上）",
+  "沒有牙齒、舌頭、口腔零件",
+  "ex_mouth_open 滿值 41 mm，建議上限 0.5",
+  "neck-platysma 沒收，脖子轉移邊界有接縫"
+ ],
+ "files": {
+  "basecolor.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
+  "body_joints.json": "3c3b44572a9a5b6290138799def39c7d9c8f3cfef72a8b222a888a885227ac91",
+  "body_paint_balanced.png": "a1671a906d86ad2a7c5b9c0c66f32b32c34ac07a6e5683fff1b87771d707c674",
+  "body_paint_legs_unscaled.png": "73f1b110123974c96525cec2f7cf41e00504262039c7961ea500414443459bcd",
+  "body_paint_strong.png": "f02df19d8c6a286ff857d553ac9b9409c9a876ce3ef16a74c921301f97408fcc",
+  "compare_vs_v7.png": "094801712bcf3a81ddb323ef5e72aa5b0834317d9b40f3c647b0b96a96f1eb2c",
+  "expressions.json": "33ad70be3683c0fad537da7aa60b69eba5fd68a5c5738ad779d149f7f655c35b",
+  "eye.png": "9ca6e1d85d691945d8668772b0b26a7f78ce57605d9e620d5812a5aa498ec40e",
+  "eyebrow.png": "45525f9ad7265bf6878b36639776f365a9490077c235070b716b90c052ab805f",
+  "head_base_v8.blend": "1a10ad4a2c83cbd26e8efd337fa486ea9f9ffd91e55be3de4874ba5f42af41a2",
+  "head_base_v8_clay.glb": "4959536a529b0963055d65650ae24e0749eda4ed4fa5328d32fbce6b55e54a24",
+  "head_base_v8_game.fbx": "5674095c3c8519cb76ed9c6f77c7b290e51598b02b348db31de1b8e0dcad7dbd",
+  "head_base_v8_tex.glb": "df61c3a81584fbea52b8eb409418fa445bd9ecb0cd83331fc652dbbf74de7f51",
+  "lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
+  "params.json": "4fcbc468c917529e47d2f75b0e2eff2b3087e8b33d3b0e2469f4b1819b0dc71e",
+  "README.md": "f75088c50764b03d63fe8c7108716c31dd8f176b6eebdbc65951491900d64687",
+  "review/units_eye_clay.png": "4c36c968408eb3792b0fe170e8d15f0810f1dbf9345b0e2241c3ac501f9d3bf2",
+  "review/units_eye_tex.png": "3a10e0b9fb459f8cc8b6eb73c1ab644db8c91234942dcd92ec7841f3fc245b3c",
+  "review/units_mouth_clay.png": "61248e0e585cc8b6c4130480c80f96ee12bc2c3c4444fa9ece1bb71b49969409",
+  "review/units_mouth_tex.png": "2dd0e3c54fbea7e6b26436dd0bd471e7d19b6c9ef790b5a693bd98723f97658d",
+  "scripts/package_v8.py": "24cb5e0eec081b71a770c0ac2e46c8311a018a8c3db6f8caec1f14db84f378cf",
+  "scripts/presets.json": "5f8eab292b25388e4def7c18cd6423319f1b71f589d25aef6b99c279e34b9721",
+  "scripts/transfer_mpfb_expr.py": "25375f54d4a9a06b6a118d5f5c4156a318699965c7a5525abbb9c314828a63e4",
+  "scripts/verify_v8.py": "82614ad3099d293bca78b2273ddf7df08e3a8e44a5f592e11c5533d3208ad8ac"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "version": "v9",
+ "date": "2026-11-02",
+ "made_by": "Claude",
+ "previous": "v8",
+ "status": "目前工作快照；閉眼使用者已核可，其他表情鍵未重審",
+ "source": {
+  "repo": "ideal_hero",
+  "commit": "a16d09f3",
+  "file": "unity/IdealHero/Assets/Characters/HeadBaseV5_v01/HeadBaseV5.fbx",
+  "sha256": "b7a236a68de01d7ead73ae09fd3d06c6bfa6111f782e146955ab1d63919ff55d"
+ },
+ "bones": 52,
+ "meshes": {
+  "Body": {
+   "verts": 70583,
+   "keys": 98
+  },
+  "Brows": {
+   "verts": 2692,
+   "keys": 63
+  },
+  "EyeL": {
+   "verts": 276,
+   "keys": 42
+  },
+  "EyeR": {
+   "verts": 276,
+   "keys": 42
+  },
+  "Lashes": {
+   "verts": 130,
+   "keys": 62
+  }
+ },
+ "changes": [
+  "閉眼重做：ex_eye_{left,right}_{closure,slit} 4 鍵（Body/Brows/Lashes）",
+  "新增 6 個閉眼修正鍵 ex_corr_blink_*，權重 = 閉眼 × 捏臉鍵",
+  "新增超圓體型 body_round 與 fix_armup_round_{L,R}（Body）；body_joints.json 新增 body_round",
+  "新增五型手繪皮膚 skins/",
+  "新增基本內褲 garments/"
+ ],
+ "verified": [
+  "FBX/blend/tex glb/clay glb 回讀：52 骨、鍵數如 meshes、預設 0",
+  "靜止姿勢 vs FBX：blend 0 mm，glb 最近點 0.0013 mm",
+  "vs v8：靜止姿勢差 0.0003 mm，Body 其餘 85 鍵相同",
+  "同鏡頭比較：正面、35°、側面、閉眼、全身、灰模"
+ ],
+ "not_verified": [
+  "v8 沿用的 29 個表情鍵未重審",
+  "多捏臉鍵疊加後閉眼；瞇眼配捏臉鍵",
+  "閉眼疊其他表情；超圓疊表情",
+  "超圓動作中的關節轉軸",
+  "背面比較圖",
+  "遊戲卡通 shader 外觀"
+ ],
+ "known_issues": [
+  "右眼內眼角凸塊",
+  "閉眼時上眼皮直條拉伸",
+  "沒有牙齒與口腔內襯",
+  "ex_mouth_open 建議最大 0.5",
+  "超圓：2 處單一三角形翻折（左腋窩、右腳趾），沒有專用皮膚"
+ ],
+ "files": {
+  "basecolor.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
+  "body_joints.json": "548d8f4b4df407be80af0740cdca186701081b9191b16b584fc9d45154645733",
+  "body_paint_balanced.png": "a1671a906d86ad2a7c5b9c0c66f32b32c34ac07a6e5683fff1b87771d707c674",
+  "compare_vs_v8.png": "5587076dc69adc257f25c2e2aff2dcc3c91148f62f51a954b28ffccc0f5756f1",
+  "eye.png": "9ca6e1d85d691945d8668772b0b26a7f78ce57605d9e620d5812a5aa498ec40e",
+  "eyebrow.png": "45525f9ad7265bf6878b36639776f365a9490077c235070b716b90c052ab805f",
+  "garments/underwear_basecolor.png": "d0711475a4a0acfabaac4bcca59ef1643078e6eba2347c48f64e07ab251e36ff",
+  "garments/underwear_basic.fbx": "29dc969b0dc72fb4f24343086c4262acf510ecd0e2383233e110962cdbdafba9",
+  "garments/underwear_body_coverage.png": "d5c4d7326ead76f5c9ef6c0f73b5db48b15b025e27682690a97ac70fd32be054",
+  "head_base_v9.blend": "55109f6cb2aee9f26171691adbbbba6baccea3485213b2d01c4cbf13e4172e44",
+  "head_base_v9.fbx": "b7a236a68de01d7ead73ae09fd3d06c6bfa6111f782e146955ab1d63919ff55d",
+  "head_base_v9_clay.glb": "69d219e2f5614ca3fbba890bb321f82f758d0f9b5aee4c29ac10819dd9607cd7",
+  "head_base_v9_tex.glb": "c5f8f437b3e1e19b45555e3a5c80c6febc675f39d3b3e61fbd5577518400cefb",
+  "lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
+  "README.md": "22a294095c130c5c0c78ebf5c8a502ecac329bbe25fdacede32d8381c71e18e1",
+  "review/body_round_sheet.png": "346f3ee7acc5afb5e7585e1aba89b2274eba3c1e6d5e9c4116eca870b1b60423",
+  "review/v8_blink.png": "e64ccd8b339f3c6baf25211ab3151e31415517804af659b6ec59df481b6753ff",
+  "review/v8_body.png": "280e8c4f59b1350e8da1def7d5f6c3a41ea913d4859fd343d74c6e2b1923b78f",
+  "review/v8_clay.png": "a1e8268d790d435b2a44b4729c2f22208df5029d9466775bd76cde54c7eea506",
+  "review/v8_front.png": "253e78e9c762454c84262bf95189c841089b9ddbafdb662000c636086609b3cc",
+  "review/v8_quarter.png": "20467d0a217610c0ce8745a4c98aee629239c25029ebdf429406f9068ba1f36b",
+  "review/v8_side.png": "21d6e2d28cf3cc82e8d73017e228589a1e8f969154feb3fe54e8f04d36f2d281",
+  "review/v9_blink.png": "b57543b4bc3ae631b6fd2026364996d5fd25105e946b8d107223651902e9ca79",
+  "review/v9_body.png": "df69dc0fbb7b5d8cc22f9f54da6dae5734437ad0373ceafffa3e937aec7b5a5a",
+  "review/v9_clay.png": "fd63f58cd4c06ca1fe3c7dc04378ea9da6b118a96cf34670bf5e757255a7f828",
+  "review/v9_front.png": "3e26c8c8ddd866b8cac5b7c520c313ad7ee0f6d3522ff45884c7224f27939b9c",
+  "review/v9_quarter.png": "0bffa437fed7b432f3b9b7a1ee2a867008e18050b7cc195816338a0ddf5363bc",
+  "review/v9_round_front.png": "9ea87e775c7cdd46836f7c4797e46401bb0baa112902bfc1090569821c110af4",
+  "review/v9_round_side.png": "9f26e006aae1b12f0531064db59f10adeba1b96cea6ba7262227d063f0c5821c",
+  "review/v9_side.png": "37afca2a7411e82eb4add782cbd907f181376803cdc903115dff258dcce1b4f0",
+  "scripts/build_v9.py": "b8ad584d399c29983b46b000a2a6b7001264933f036f7541854086e5f69db420",
+  "scripts/compose_v9.py": "81e73e3e7bc4d4956e101ff16c9442712d91b46ed7d159a776c2f8e3c98f6a1a",
+  "scripts/render_v9.py": "5132cb825d7617ced42ea8c34d4398365663799096560b84863c50821c793a3b",
+  "scripts/verify_v9.py": "83038ad7f021659e58c01e040f1e181350e23af651be5ab79aaa2c23f5076d71",
+  "scripts/write_manifest.py": "a57879f6fe004a58ce61aafa61c761890a5a1e42a0f397418f21bbfb2b58e82e",
+  "skins/skin_fat.png": "8bfa96be8163407b8e51d1155f513838db24ca27facbdbd5d012265b75d7381c",
+  "skins/skin_lean.png": "976b228b19b83a85feddc08656efb7b7d09d0df9870f9b86e38990ad5a728401",
+  "skins/skin_muscular.png": "c53b21f33b402b7acdd249d2e2bbee251f759acf14a54cc563e115d68d9eef20",
+  "skins/skin_normal.png": "a81bcb0aa2359582ed55f5d9173772f7fd7e5553f8743bf9cadd9e7d857b61e8",
+  "skins/skin_thin.png": "cc0af8c2be091c0a2e01e1f4b239620691cf150a393729f839fda80e5ee74026",
+  "validation.json": "0b359abf1fd4d9464edb48fb7b52587d567d87689a36883157aa615bc0724b6f"
+ }
+}

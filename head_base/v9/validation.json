@@ -1,0 +1,228 @@
+{
+ "files": {
+  "head_base_v9.fbx": {
+   "bones": 52,
+   "meshes": {
+    "body": {
+     "verts": 70583,
+     "keys": 98,
+     "max_default": 0.0
+    },
+    "brows": {
+     "verts": 2692,
+     "keys": 63,
+     "max_default": 0.0
+    },
+    "eyel": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "eyer": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "lashes": {
+     "verts": 130,
+     "keys": 62,
+     "max_default": 0.0
+    }
+   },
+   "rest_diff_vs_fbx_mm": {
+    "body": 0.0,
+    "brows": 0.0,
+    "eyel": 0.0,
+    "eyer": 0.0,
+    "lashes": 0.0
+   }
+  },
+  "head_base_v9.blend": {
+   "bones": 52,
+   "meshes": {
+    "body": {
+     "verts": 70583,
+     "keys": 98,
+     "max_default": 0.0
+    },
+    "brows": {
+     "verts": 2692,
+     "keys": 63,
+     "max_default": 0.0
+    },
+    "eyel": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "eyer": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "lashes": {
+     "verts": 130,
+     "keys": 62,
+     "max_default": 0.0
+    }
+   },
+   "rest_diff_vs_fbx_mm": {
+    "body": 0.0,
+    "brows": 0.0,
+    "eyel": 0.0,
+    "eyer": 0.0,
+    "lashes": 0.0
+   }
+  },
+  "head_base_v9_tex.glb": {
+   "bones": 52,
+   "meshes": {
+    "body": {
+     "verts": 71538,
+     "keys": 98,
+     "max_default": 0.0
+    },
+    "brows": {
+     "verts": 2692,
+     "keys": 63,
+     "max_default": 0.0
+    },
+    "eyel": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "eyer": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "icosphere": {
+     "verts": 42,
+     "keys": 0,
+     "max_default": 0
+    },
+    "lashes": {
+     "verts": 130,
+     "keys": 62,
+     "max_default": 0.0
+    }
+   },
+   "rest_diff_vs_fbx_mm": {
+    "body": "nn 0.0013 (71538 vs 70583 verts)",
+    "brows": 0.0004,
+    "eyel": 0.0004,
+    "eyer": 0.0004,
+    "icosphere": "not in fbx",
+    "lashes": 0.0004
+   }
+  },
+  "head_base_v9_clay.glb": {
+   "bones": 52,
+   "meshes": {
+    "body": {
+     "verts": 71538,
+     "keys": 98,
+     "max_default": 0.0
+    },
+    "brows": {
+     "verts": 2692,
+     "keys": 63,
+     "max_default": 0.0
+    },
+    "eyel": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "eyer": {
+     "verts": 276,
+     "keys": 42,
+     "max_default": 0.0
+    },
+    "icosphere": {
+     "verts": 42,
+     "keys": 0,
+     "max_default": 0
+    },
+    "lashes": {
+     "verts": 130,
+     "keys": 62,
+     "max_default": 0.0
+    }
+   },
+   "rest_diff_vs_fbx_mm": {
+    "body": "nn 0.0013 (71538 vs 70583 verts)",
+    "brows": 0.0004,
+    "eyel": 0.0004,
+    "eyer": 0.0004,
+    "icosphere": "not in fbx",
+    "lashes": 0.0004
+   }
+  }
+ },
+ "vs_v8": {
+  "body": {
+   "basis_max_mm": 0.0003,
+   "added": [
+    "body_round",
+    "fix_armup_round_L",
+    "fix_armup_round_R",
+    "ex_corr_blink_left_eyes_big",
+    "ex_corr_blink_right_eyes_big",
+    "ex_corr_blink_left_upper_lid_open",
+    "ex_corr_blink_right_upper_lid_open",
+    "ex_corr_blink_left_lower_lid_open",
+    "ex_corr_blink_right_lower_lid_open"
+   ],
+   "removed": [],
+   "changed": {
+    "ex_eye_left_closure": 9.15,
+    "ex_eye_left_slit": 5.01,
+    "ex_eye_right_closure": 9.128,
+    "ex_eye_right_slit": 2.817
+   },
+   "same": 85
+  },
+  "brows": {
+   "basis_max_mm": 0.0003,
+   "added": [
+    "ex_corr_blink_left_eyes_big",
+    "ex_corr_blink_right_eyes_big",
+    "ex_corr_blink_left_upper_lid_open",
+    "ex_corr_blink_right_upper_lid_open",
+    "ex_corr_blink_left_lower_lid_open",
+    "ex_corr_blink_right_lower_lid_open"
+   ],
+   "removed": [],
+   "changed": {
+    "ex_eye_left_closure": 0.8,
+    "ex_eye_left_slit": 0.3,
+    "ex_eye_right_closure": 0.8,
+    "ex_eye_right_slit": 0.3
+   },
+   "same": 53
+  },
+  "eyel": "missing in v8",
+  "eyer": "missing in v8",
+  "lashes": {
+   "basis_max_mm": 0.0003,
+   "added": [
+    "ex_corr_blink_left_eyes_big",
+    "ex_corr_blink_right_eyes_big",
+    "ex_corr_blink_left_upper_lid_open",
+    "ex_corr_blink_right_upper_lid_open",
+    "ex_corr_blink_left_lower_lid_open",
+    "ex_corr_blink_right_lower_lid_open"
+   ],
+   "removed": [],
+   "changed": {
+    "ex_eye_left_closure": 14.543,
+    "ex_eye_left_slit": 2.682,
+    "ex_eye_right_closure": 14.166,
+    "ex_eye_right_slit": 2.812
+   },
+   "same": 52
+  }
+ }
+}

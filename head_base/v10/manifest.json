@@ -1,0 +1,118 @@
+{
+ "version": "v10",
+ "date": "2026-11-02",
+ "made_by": "Claude",
+ "previous": "v9",
+ "status": "目前工作快照；微笑、大笑 G 版、牙齒、ARKit 眨眼已核可；閉眼眼線三角形與外眼角尖折待修",
+ "source": {
+  "repo": "3D_model_design",
+  "commit": "7bd32ee",
+  "file": "build/v10/out/head_base_v10_game.fbx (tools/build_version.py v10)",
+  "sha256": "bee4a327ef113b61170964f0f72aa36c2e5523c60bc327581da1e5b0c4f879f4",
+  "note": "設定 versions/v10.json、versions/v10_presets.json"
+ },
+ "bones": 52,
+ "meshes": {
+  "Body": {
+   "verts": 70583,
+   "keys": 149
+  },
+  "Brows": {
+   "verts": 2692,
+   "keys": 95
+  },
+  "EyeL": {
+   "verts": 276,
+   "keys": 42
+  },
+  "EyeR": {
+   "verts": 276,
+   "keys": 42
+  },
+  "Lashes": {
+   "verts": 130,
+   "keys": 85
+  },
+  "Mouth": {
+   "verts": 288,
+   "keys": 6
+  }
+ },
+ "changes": [
+  "新增 51 個 ARKit 命名 ak_ 鍵（MPFB faceunits01 轉移，無 tongueOut）：Body 51、Brows 32、Lashes 23",
+  "ak_eyeBlinkLeft/Right = v9 的 ex_eye_{left,right}_closure",
+  "微笑、大笑（G 版）組合，見 expressions.json",
+  "局部平滑：ex_mouth_corner_puller 嘴角倒勾、ak_cheekSquintLeft 左下眼皮撕裂",
+  "新物件 Mouth：上排 12 顆牙，掛頭骨，只有 6 個捏臉鍵",
+  "五型皮膚：口腔內部上色、大笑嘴角黑線補色、耳背灰褐色團改平"
+ ],
+ "verified": [
+  "blend/fbx/tex glb/clay glb 回讀：52 骨、鍵數如 meshes、預設 0",
+  "靜止姿勢 vs v9：blend 0 mm、FBX 0.0008 mm",
+  "同鏡頭比較 v9：中性正面/3/4/側面/灰模、微笑、大笑、閉眼",
+  "12 個捏臉鍵極值 × 微笑/大笑：無穿牙、撕裂、口腔上色外露",
+  "五型體型 × 中性/微笑/大笑（Cycles）",
+  "ARKit 眨眼修正前後"
+ ],
+ "not_verified": [
+  "微笑、大笑、眨眼以外的 ak_ 鍵未逐一重審",
+  "其他 ex_ 表情鍵未重審",
+  "多捏臉鍵疊加 × 表情；捏臉極值 × 閉眼",
+  "超圓體型 × 表情",
+  "Unity 實機匯入、卡通 shader",
+  "背面比較圖"
+ ],
+ "known_issues": [
+  "閉眼正面：上眼皮畫的眼線露出一小片三角形（貼圖造成；修細貼圖會毀睜眼眼線；眼線零件試 1 次失敗，使用者決定不用）",
+  "閉眼外眼角上眼皮尖折（v9 閉眼鍵；局部平滑 2 次會讓縫裂開，未採用）",
+  "牙齒比預想圖大、一格一格",
+  "mouth_narrow / lips_full × 大笑：灰模嘴角細尖褶",
+  "左耳背淡小圓圈；灰模瞇眼左外眼角細碎起伏",
+  "沿用 v9：右眼內眼角凸塊、閉眼直條拉伸、ex_mouth_open ≤ 0.5、超圓體型翻折與無專用皮膚",
+  "FBX 貼圖未內嵌",
+  "glb 匯入 Blender 多出 Icosphere（匯入器畫骨頭用）"
+ ],
+ "next": [
+  "閉眼眼線三角形、外眼角尖折：使用者決定做法（不用眼線零件）",
+  "其他表情與 ak_ 鍵逐一重審",
+  "Unity 實機匯入測試",
+  "牙齒更細（使用者提出時）",
+  "neck_platysma 接縫"
+ ],
+ "reference": {
+  "../v9/reference/expr_smile_laugh_v001.png": "微笑／大笑預想照（沿用 v9，使用者以它為目標）"
+ },
+ "files": {
+  "README.md": "bcc64d938f0d530d70aaa78bcd003d070843832429ee3d624e0bbbb2164566fe",
+  "basecolor.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
+  "body_joints.json": "398b6486610589d14f9dde124ab288987efa6c65c30cc0585c0f9c557bc8fd38",
+  "body_paint_balanced.png": "a1671a906d86ad2a7c5b9c0c66f32b32c34ac07a6e5683fff1b87771d707c674",
+  "compare_vs_v9.png": "d608565f207c8ab65a48f54de3a145550cdeecdce4f45ae6d98081325e421688",
+  "expressions.json": "4264da053737b85ebd781008a24df3a2a95468fa8cb066c0a016933a1eef5de4",
+  "eye.png": "9ca6e1d85d691945d8668772b0b26a7f78ce57605d9e620d5812a5aa498ec40e",
+  "eyebrow.png": "45525f9ad7265bf6878b36639776f365a9490077c235070b716b90c052ab805f",
+  "head_base_v10.blend": "7db9f949e624dff9d49460bc666d0943842784fe52423798c9d868d30759b78b",
+  "head_base_v10.fbx": "bee4a327ef113b61170964f0f72aa36c2e5523c60bc327581da1e5b0c4f879f4",
+  "head_base_v10_clay.glb": "f506b7f6eecec1037d4655193a1fd73f1f84b21899dbaf6228f869e51cc41ac6",
+  "head_base_v10_tex.glb": "d30b8eac4d8d1970cca11318a603aaaa9e3f71e29d2c930d265650ae6e3cb106",
+  "lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
+  "review/body/10_已知問題_閉眼眼線三角形.png": "5d9fab42d407c0d0075947eb2d94e1f4e9309e01b79a1ddf83f2e639a7668bd7",
+  "review/body/1_五體型x表情_臉部_Cycles.png": "abc22604dd7535c5543356e8a48116f42725960ec39e593ba9d14d09e28c51fb",
+  "review/body/2_五體型x表情_嘴部_Cycles.png": "33cfd20c15fd1f235f939c9fe29dec5aa4985f492ca6afacaa231256c9c297c8",
+  "review/body/6_眨眼修正_修前vs修後.png": "4ed9e9b2208f00fc51ebdabaa541b6197e1e5f828faa002799ac0a7e0891ae19",
+  "review/body/7_已知問題_閉眼外眼角尖折.png": "d02d33689e8764258a7e4e3e27b0081ffcadd90bac3a0062eabdc8baa5a248fb",
+  "review/expressions/表情_Cycles.png": "3701e9b5b5d6a7d9cdc7cc2ee89c80169564544133e6acca46a2ba9658077218",
+  "review/expressions/表情_貼皮與灰模.png": "03897d44e9eeb67f647a2939adace187772494d2185dd6d1aebfc72b83cde3cb",
+  "review/teeth/0_捏臉極值x表情_灰模_1.png": "939a4ed31861f11139a5c463cee880ac9bc39b7dea5ef7fd49aea2ab65538159",
+  "review/teeth/0_捏臉極值x表情_灰模_2.png": "c711e876e8461ef62ec5ad60897ef07d16a11efd480e02f1114b77c9f5ad40d7",
+  "review/teeth/0_捏臉極值x表情_貼皮_1.png": "1fd78f731b75d62127c0835b65abfd0403f885128e604914905582e9982605e3",
+  "review/teeth/0_捏臉極值x表情_貼皮_2.png": "4a2737411fb7bdf93dc4a864dd6ef9d86e45b4a127582e10d16f1a628ec31ddb",
+  "review/teeth/3_牙齒第3次_預想圖vs第2次vs第3次.png": "4c441f5e477c9b2e6ed31a1bef9f4eda887088234e5be164006c282947432c22",
+  "review/預想圖vs_v10.png": "4eb50f8b0b04d1fb8957983d734bbf8c4a93cbac1e55e83c95d63d3fb8f3daa1",
+  "skins/skin_fat.png": "c154866f99c6e305fdf8f5af72f0b45a5f723b23b2bd95442ff92bb43bcc87df",
+  "skins/skin_lean.png": "ec7ee8214fef0971f66932eaf243db4b8b8a1a98f180b5adac207fe11b098d28",
+  "skins/skin_muscular.png": "15b25ff32fc75a399047c481489a27332f048801cd7c0ae56e02e71612cfabf6",
+  "skins/skin_normal.png": "0db4ae73c6301ed6ca624a68f0dda1d231c2e6eabb4b5522b8f16d495a47d5ec",
+  "skins/skin_thin.png": "f73cebec771bfd9e5c6ffd362fa57ded9e1e5a2e4901c730617d3c628519c853"
+ }
+}

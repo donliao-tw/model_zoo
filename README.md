@@ -25,7 +25,8 @@ SRAM 員工角色(捏臉系統)的模型與參數庫。每個模型都有版本�
 | [head_base v6](head_base/v6/) | 保留 | 遊戲模型快照：眼球修復、手繪眉、眼窩與睫毛調整；含已知限制 |
 | [head_base v7](head_base/v7/) | 保留；壯碩畫層已核可 | 現用56鍵body（含10舉手修正鍵，10/30 更新）＋42鍵部件、52骨、各體型關節偏移，附胸背手臂大小腿畫層與兩強度 |
 | [head_base v8](head_base/v8/) | 保留 | v7 + 33 個表情形態鍵（MPFB 表情單元，眨眼/微笑/張嘴/眉毛等）＋6 個表情組合；閉眼貼圖待重畫 |
-| [head_base v9](head_base/v9/) | **目前工作快照** | 遊戲現用模型：閉眼重做＋6 個閉眼修正鍵、超圓體型、五型手繪皮膚、內褲；其他 29 個表情鍵未重審 |
+| [head_base v9](head_base/v9/) | 保留 | 遊戲現用模型：閉眼重做＋6 個閉眼修正鍵、超圓體型、五型手繪皮膚、內褲；其他 29 個表情鍵未重審 |
+| [head_base v10](head_base/v10/) | **目前工作快照** | v9 + 微笑／大笑重做、上排牙（Mouth 物件）與口腔上色、51 個 ARKit ak_ 鍵；閉眼眼線三角形與外眼角尖折待修 |
 
 ## 共通規格
 
@@ -33,7 +34,7 @@ SRAM 員工角色(捏臉系統)的模型與參數庫。每個模型都有版本�
 - 單位公尺;glb 為 Y 朝上。
 - 命名:每個版本資料夾 `head_base/vN/`,主檔 `head_base_vN_tex.glb`(貼皮)/ `_clay.glb`(灰模)/ `.blend`;研究或試驗放在該版本的 `research/`。v7 起每版的 README 段落與 `manifest.json` 欄位統一，見 [`head_base/README.md`](head_base/README.md)「新版本怎麼上架」。
 - 物件:`body`(全身,無衣服頭髮)、`eye_L` / `eye_R`(眼球,原點在球心,轉物件即可轉眼珠)、`lashes`、v2 起有 `brows`。
-- 玩家滑桿:V1–V5 為 28 個 morph target(14 對)；V6有42鍵；V7 body有56鍵（42五官＋4體型＋10舉手修正，修正鍵由遊戲自動驅動），其他部件42鍵，組合仍待驗；V8 再加 ex_ 開頭的表情鍵（body 33、brows 15、lashes 14），見 `head_base/v8/expressions.json`；V9 body 98 鍵（再加 body_round、2 個超圓舉手修正、6 個閉眼修正 ex_corr_blink_*），brows 63、lashes 62。同名 morph 要同時設到所有物件,眼球、睫毛、眉毛才會跟著走。對照表在各版本的 `morphs.json` 與 [`head_base/README.md`](head_base/README.md)。
+- 玩家滑桿:V1–V5 為 28 個 morph target(14 對)；V6有42鍵；V7 body有56鍵（42五官＋4體型＋10舉手修正，修正鍵由遊戲自動驅動），其他部件42鍵，組合仍待驗；V8 再加 ex_ 開頭的表情鍵（body 33、brows 15、lashes 14），見 `head_base/v8/expressions.json`；V9 body 98 鍵（再加 body_round、2 個超圓舉手修正、6 個閉眼修正 ex_corr_blink_*），brows 63、lashes 62；V10 body 149、brows 95、lashes 85（再加 51 個 ARKit 命名 ak_ 鍵，見 `head_base/v10/expressions.json`），新物件 `Mouth`（上排牙）6 鍵。同名 morph 要同時設到所有物件,眼球、睫毛、眉毛才會跟著走。對照表在各版本的 `morphs.json` 與 [`head_base/README.md`](head_base/README.md)。
 - 皮膚貼圖:從 AI 生成的頭(head02)烘到 MPFB UV,4096²。
 
 ## 產生方式

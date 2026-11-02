@@ -52,6 +52,12 @@
   "ex_mouth_open 滿值 41 mm，建議上限 0.5",
   "neck-platysma 沒收，脖子轉移邊界有接縫"
  ],
+ "next": [
+  "閉眼上眼皮深色：已完成，見 v9",
+  "牙齒、口腔、笑臉：見 v9",
+  "其他表情鍵重審、捏臉疊加：見 v9",
+  "neck-platysma 接縫：未排"
+ ],
  "files": {
   "basecolor.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
   "body_joints.json": "3c3b44572a9a5b6290138799def39c7d9c8f3cfef72a8b222a888a885227ac91",
@@ -68,7 +74,7 @@
   "head_base_v8_tex.glb": "df61c3a81584fbea52b8eb409418fa445bd9ecb0cd83331fc652dbbf74de7f51",
   "lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
   "params.json": "4fcbc468c917529e47d2f75b0e2eff2b3087e8b33d3b0e2469f4b1819b0dc71e",
-  "README.md": "f75088c50764b03d63fe8c7108716c31dd8f176b6eebdbc65951491900d64687",
+  "README.md": "bc38450dce0cd86f67c113dc64182e1aa124793f3b5067922b8d6ed0ffe1c13c",
   "review/units_eye_clay.png": "4c36c968408eb3792b0fe170e8d15f0810f1dbf9345b0e2241c3ac501f9d3bf2",
   "review/units_eye_tex.png": "3a10e0b9fb459f8cc8b6eb73c1ab644db8c91234942dcd92ec7841f3fc245b3c",
   "review/units_mouth_clay.png": "61248e0e585cc8b6c4130480c80f96ee12bc2c3c4444fa9ece1bb71b49969409",

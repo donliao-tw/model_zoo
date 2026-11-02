@@ -9,9 +9,9 @@ from pathlib import Path
 
 d, spec = Path(sys.argv[1]), json.loads(Path(sys.argv[2]).read_text(encoding='utf-8-sig'))
 ORDER = ['version', 'date', 'made_by', 'previous', 'status', 'source', 'bones', 'meshes',
-         'changes', 'verified', 'not_verified', 'known_issues', 'extra']
+         'changes', 'verified', 'not_verified', 'known_issues', 'next', 'reference', 'extra']
 m = {k: spec[k] for k in ORDER if k in spec}
-missing = [k for k in ORDER[:-1] if k not in spec]
+missing = [k for k in ORDER[:-2] if k not in spec]
 if missing: sys.exit(f'missing fields: {missing}')
 m['files'] = {p.relative_to(d).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
               for p in sorted(d.rglob('*')) if p.is_file() and p.name != 'manifest.json'}

@@ -61,6 +61,18 @@
   "ex_mouth_open 建議最大 0.5",
   "超圓：2 處單一三角形翻折（左腋窩、右腳趾），沒有專用皮膚"
  ],
+ "next": [
+  "笑臉對齊預想照：大笑開口、上排牙、口腔內襯、嘴巴加寬；齒縫、嘴角碎片、上唇顏色（美術；先問使用者「還不行」指哪裡）",
+  "其他 29 個表情鍵重審（美術；笑臉之後）",
+  "右眼內眼角凸塊（美術；進遊戲看得出來再修）",
+  "超圓專用手繪皮膚（美術；遊戲形狀先經使用者確認）",
+  "超圓肩膀／三角肌／小腿對齊方案 C（使用者說先跳過）",
+  "肩胛短深線、腿部色塊、肥胖揮砍大腿灰塊（待查）"
+ ],
+ "reference": {
+  "reference/expr_smile_laugh_v001.png": "微笑＋大笑預想照；候選，使用者未定案",
+  "reference/body_round_option_C.png": "超圓體型正側面；使用者選定，只看身體形狀"
+ },
  "files": {
   "basecolor.png": "f585e0c8b41b659b0c8cc3a7d45490181e8eb3d0a955cbba0e50380123ddf45c",
   "body_joints.json": "548d8f4b4df407be80af0740cdca186701081b9191b16b584fc9d45154645733",
@@ -76,7 +88,11 @@
   "head_base_v9_clay.glb": "69d219e2f5614ca3fbba890bb321f82f758d0f9b5aee4c29ac10819dd9607cd7",
   "head_base_v9_tex.glb": "c5f8f437b3e1e19b45555e3a5c80c6febc675f39d3b3e61fbd5577518400cefb",
   "lashes.png": "cefe3aa06869e88c908c342984c624ada1f74c918fd67226ecba28d99502a239",
-  "README.md": "22a294095c130c5c0c78ebf5c8a502ecac329bbe25fdacede32d8381c71e18e1",
+  "README.md": "1a31b1e3f718c7987205efe9d6318b9dd4c1c61d55e8b46bee04923f4f3c8fb3",
+  "reference/body_round_option_C.png": "86faafdb5304b6ef1b46179b1c7c9a0ef09f661339fbe54fe31a052d52d2e824",
+  "reference/body_round_prompt.txt": "7f28470a372d019733426bf7fadb967fda5d17972a0cf5dd07f10148a2e67039",
+  "reference/expr_smile_laugh_v001.png": "479075b090a829224975ef30b5c222d575173ff4726e61236a736f2e7bbaa224",
+  "reference/expr_smile_laugh_v001_prompt.txt": "43ba3ce75928ba83e2ef8f733b7adb7205a44a7ab61fdf488fb6d2d7bd24a49b",
   "review/body_round_sheet.png": "346f3ee7acc5afb5e7585e1aba89b2274eba3c1e6d5e9c4116eca870b1b60423",
   "review/v8_blink.png": "e64ccd8b339f3c6baf25211ab3151e31415517804af659b6ec59df481b6753ff",
   "review/v8_body.png": "280e8c4f59b1350e8da1def7d5f6c3a41ea913d4859fd343d74c6e2b1923b78f",
@@ -96,7 +112,7 @@
   "scripts/compose_v9.py": "81e73e3e7bc4d4956e101ff16c9442712d91b46ed7d159a776c2f8e3c98f6a1a",
   "scripts/render_v9.py": "5132cb825d7617ced42ea8c34d4398365663799096560b84863c50821c793a3b",
   "scripts/verify_v9.py": "83038ad7f021659e58c01e040f1e181350e23af651be5ab79aaa2c23f5076d71",
-  "scripts/write_manifest.py": "a57879f6fe004a58ce61aafa61c761890a5a1e42a0f397418f21bbfb2b58e82e",
+  "scripts/write_manifest.py": "cd79092f42ddba9ba5c29090ee67cedfdbaee460644a5cd53cbc6e00c9d41125",
   "skins/skin_fat.png": "8bfa96be8163407b8e51d1155f513838db24ca27facbdbd5d012265b75d7381c",
   "skins/skin_lean.png": "976b228b19b83a85feddc08656efb7b7d09d0df9870f9b86e38990ad5a728401",
   "skins/skin_muscular.png": "c53b21f33b402b7acdd249d2e2bbee251f759acf14a54cc563e115d68d9eef20",

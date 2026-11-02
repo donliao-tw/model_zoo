@@ -8,7 +8,7 @@
 
 ```
 head_base/vN/
-  README.md                固定 6 段，見下
+  README.md                固定 7 段，見下
   manifest.json            欄位見下；files 由 scripts/write_manifest.py 產生
   head_base_vN.fbx         來源 FBX 原樣副本（v7、v8 叫 head_base_vN_game.fbx）
   head_base_vN.blend       可編輯母檔，貼圖打包，所有形態鍵預設 0
@@ -17,21 +17,23 @@ head_base/vN/
   *.png                    貼圖
   compare_vs_v<上一版>.png 同鏡頭比較：至少正面、斜側、側面、灰模
   review/                  其他檢查圖
+  reference/               預想照（目標長相）與生圖提示詞；有才放
   scripts/                 重做用的腳本
 ```
 
 **不覆蓋舊版**：改了就開新版本號。
 
-### README 的 6 段
+### README 的 7 段
 
 開頭一行寫標題、日期、誰做的、狀態（保留／目前工作快照／停用，以及使用者核可了什麼）。
 
-1. **從哪版來**：上一版、來源 repo／commit／檔案和 SHA；附檔案表。
+1. **從哪版來**：上一版、來源 repo／commit／檔案和 SHA；附檔案表。有預想照就列出每張的內容和狀態（使用者選定／候選）。
 2. **改了什麼**：和上一版比，逐項列；也寫沒變的部分。形態鍵數量有變就列表。
 3. **已驗證**：實際跑過、看過的，附數字。
 4. **未驗證**：沒做的檢查，照實寫。
 5. **已知問題**：已知但沒修的。
-6. **怎麼重做**：指令和腳本。
+6. **下一步**：表格「要改什麼／誰改／開始條件」。已被後續版本接手的寫「見 vN」。
+7. **怎麼重做**：指令和腳本。
 
 ### manifest.json 欄位
 
@@ -41,7 +43,8 @@ head_base/vN/
 | `source` | `repo`、`commit`、`file`、`sha256`（可加 `note`） |
 | `bones` | 骨頭數 |
 | `meshes` | 每個物件的 `verts`、`keys`（形態鍵數，不含 Basis） |
-| `changes`、`verified`、`not_verified`、`known_issues` | 同 README 第 2～5 段的摘要 |
+| `changes`、`verified`、`not_verified`、`known_issues`、`next` | 同 README 第 2～6 段的摘要 |
+| `reference` | 選填，預想照：`{檔名: 內容與狀態}` |
 | `extra` | 選填，該版特有的欄位 |
 | `files` | 每個檔案的 SHA-256（腳本自動算；文字檔以 LF 換行計算，Windows 簽出成 CRLF 時會不同） |
 

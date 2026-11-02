@@ -54,6 +54,11 @@
   "沒有完整 19158 點 shape_final.npz（拓撲已改，不能沿用 v6）",
   "GLB 不含卡通 shader，以 FBX 為準"
  ],
+ "next": [
+  "表情鍵：見 v8、v9",
+  "其他體型皮膚：見 v9",
+  "肌肉畫層正式強度 1.45 或 2 倍：使用者未決"
+ ],
  "extra": {
   "authoritative_fbx": "head_base_v7_game.fbx",
   "editable": "head_base_v7.blend",
@@ -86,7 +91,7 @@
   "morphs.json": "2b9f9b755aa596e2d7397eece515a5c33af163a479bc24707c6d595585c9ff30",
   "muscular_preview_basecolor.png": "f9bd45a7396b05b563f4b6a53bce1003848d68cd775a47598c1db56c9a483818",
   "params.json": "eb7db7a9531b493e0b44eda21bc8664b3e47035b6c5d7032ec34cecf5b0b5b27",
-  "README.md": "69cb641f01e9ec62e3691791633ef79883a96a2544383ad0b9c49354cef9acea",
+  "README.md": "04c5344f73552f048d1e17427ae27ad95d0aa1dd187b51f47e38c064b2b75ad9",
   "review/before_after_back.png": "023cbb7b5f4710e65335230eb4100c5d2e4f503edb3cf0e93fe628e064d8b7a3",
   "review/before_after_front.png": "e8b086cf82cff244e1ae63b13393f5eed24b6b5f1d9758368207892a93ddaa15",
   "review/before_after_game.png": "ac8a444089d8b9686108d18bcbfddd0fd1f6be37a6190642fc906a7ab0ac286d",

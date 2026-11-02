@@ -1,0 +1,9 @@
+Stylized 3D character render, soft hand-painted skin texture, clean toon-like shading, neutral soft studio lighting, plain flat gray background.
+
+Expression reference sheet for the exact same character as in the input image: a bald young man with the same face shape, nose, ears, thick dark eyebrows, dark upper eyeliner and amber-brown eyes. Keep his identity, proportions and skin tone identical; only the facial expression changes. Two head-and-neck portraits side by side, both straight front view, same framing and scale.
+
+Left portrait - gentle smile: lips closed, mouth corners pulled up and slightly back into a soft upward curve, the upper lip stays smooth and continuous across the middle with no pinching or notch, cheeks lifted a little, lower eyelids raised so the eyes are slightly narrowed, eyebrows relaxed in their neutral position.
+
+Right portrait - happy open laugh: mouth open about one third of its maximum, mouth corners pulled up and back, the upper lip forms a smooth wide arch with no V-shaped notch, upper front teeth visible, a dark mouth interior with the tongue low, cheeks clearly raised and rounded, eyes squeezed into happy crescents but still slightly open, eyebrows raised a little. The skin at the mouth corners folds smoothly into the cheeks, no cracks or sharp creases.
+
+No text of any kind in the image. No watermark, no logo, no frame or border lines.

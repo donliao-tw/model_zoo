@@ -42,6 +42,7 @@
   "大笑改成單一鍵 ex_laugh = 使用者滑桿網頁第 3 版送出的組合(MakeHuman 骨頭單元改在這張臉上量,上唇中間 V 消失)",
   "中性下顎後退 4.7mm(chin-prognathism-decr × 0.6,加到 Body 基底和所有鍵)",
   "上排牙用 mouthparts 重做(每側 7 顆);ex_laugh 時往後 11.32mm、往上 3.36mm;沒有下排牙",
+  "耳背色階環修好:去色團改用浮點數模糊重算(v10 的 8 位元模糊留下一圈圈色階環),五型皮膚都改",
   "五型皮膚的口腔內部依新大笑重新上色"
  ],
  "verified": [
@@ -103,6 +104,7 @@
   "review/check/閉嘴類_眨眼x大笑_五體型x大笑.png",
   "review/compare_cycles.png",
   "review/上唇中間V_修正前後.png",
+  "review/耳背貼圖_v9_v10_v11.png",
   "review/預想圖vs_v10_v11.png",
   "skins/skin_fat.png",
   "skins/skin_lean.png",

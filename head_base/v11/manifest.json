@@ -1,0 +1,113 @@
+{
+ "version": "v11",
+ "date": "2026-11-05",
+ "made_by": "Claude",
+ "previous": "v10",
+ "status": "大笑使用者已核可(滑桿網頁第 3 版送出);中性下顎後退 4.7mm;沒有下排牙;v10 閉眼兩處瑕疵仍待修",
+ "source": {
+  "repo": "3D_model_design",
+  "commit": "3d49ab8",
+  "file": "build/v11/out/head_base_v11_game.fbx (tools/build_version.py v11)",
+  "sha256": "6b13e9dbb00c116d25ae5fa6ec082d983ca7c0113d2915b59d3ca717a6a4cfe2",
+  "note": "設定 versions/v11.json、versions/v11_laugh.json、versions/v11_presets.json"
+ },
+ "bones": 52,
+ "meshes": {
+  "Body": {
+   "verts": 70583,
+   "keys": 150
+  },
+  "Brows": {
+   "verts": 2692,
+   "keys": 96
+  },
+  "EyeL": {
+   "verts": 276,
+   "keys": 42
+  },
+  "EyeR": {
+   "verts": 276,
+   "keys": 42
+  },
+  "Lashes": {
+   "verts": 130,
+   "keys": 86
+  },
+  "Mouth": {
+   "verts": 336,
+   "keys": 9
+  }
+ },
+ "changes": [
+  "大笑改成單一鍵 ex_laugh = 使用者滑桿網頁第 3 版送出的組合(MakeHuman 骨頭單元改在這張臉上量,上唇中間 V 消失)",
+  "中性下顎後退 4.7mm(chin-prognathism-decr × 0.6,加到 Body 基底和所有鍵)",
+  "上排牙用 mouthparts 重做(每側 7 顆);ex_laugh 時往後 11.32mm、往上 3.36mm;沒有下排牙",
+  "五型皮膚的口腔內部依新大笑重新上色"
+ ],
+ "verified": [
+  "blend/fbx/tex glb/clay glb 回讀:52 骨、鍵數如 meshes、預設 0;靜止姿勢 vs 建置基底 blend 0 mm、FBX 0.0008 mm",
+  "ex_laugh 和網頁單元相加最大差 0.0001mm",
+  "check_expr morph/mouth/blink/body 四組看過圖"
+ ],
+ "not_verified": [
+  "Unity 實機匯入、遊戲卡通 shader",
+  "多個捏臉鍵疊加後大笑",
+  "其他 ex_ 表情鍵、大部分 ak_ 鍵在下顎後退後沒有逐一重看"
+ ],
+ "known_issues": [
+  "chin_long × 大笑口腔內暗色尖三角形",
+  "大笑時上唇內捲、邊緣小波浪(網格太粗)",
+  "glb 材質 BLEND,網頁檢視器需改不透明",
+  "部分單元外插(下顎往前 1.5、負值)",
+  "v10 閉眼眼線三角形、外眼角尖折"
+ ],
+ "next": [
+  {
+   "what": "上唇內捲、小波浪(上唇邊緣加細網格)",
+   "who": "3D_model_design",
+   "when": "先調查"
+  },
+  {
+   "what": "下排牙(依下唇位置自動放)",
+   "who": "3D_model_design",
+   "when": "使用者決定"
+  },
+  {
+   "what": "v10 閉眼兩處瑕疵",
+   "who": "待定",
+   "when": "使用者決定做法"
+  },
+  {
+   "what": "Unity 實機匯入測試",
+   "who": "待定",
+   "when": "無"
+  }
+ ],
+ "reference": "../v9/reference/expr_smile_laugh_v001.png(右半大笑);並排 review/預想圖vs_v10_v11.png",
+ "files": [
+  "README.md",
+  "basecolor.png",
+  "body_joints.json",
+  "body_paint_balanced.png",
+  "compare_vs_v10.png",
+  "expressions.json",
+  "eye.png",
+  "eyebrow.png",
+  "head_base_v11.blend",
+  "head_base_v11.fbx",
+  "head_base_v11_clay.glb",
+  "head_base_v11_tex.glb",
+  "lashes.png",
+  "review/check/捏臉極值x大笑_灰模.png",
+  "review/check/捏臉極值x大笑_貼皮.png",
+  "review/check/閉嘴類_眨眼x大笑_五體型x大笑.png",
+  "review/compare_cycles.png",
+  "review/上唇中間V_修正前後.png",
+  "review/預想圖vs_v10_v11.png",
+  "skins/skin_fat.png",
+  "skins/skin_lean.png",
+  "skins/skin_muscular.png",
+  "skins/skin_normal.png",
+  "skins/skin_thin.png"
+ ]
+}

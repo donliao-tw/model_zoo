@@ -6,9 +6,9 @@
  "status": "使用者已核可上架:大笑嘴唇重做、拿掉眉毛/睫毛物件、貼圖去眼線並上唇色",
  "source": {
   "repo": "3D_model_design",
-  "commit": "b957b01",
+  "commit": "8bf2462",
   "file": "tools/build_version.py v12 --out",
-  "sha256": "b08cd24df0efd362c42fdde90dce52403c84541145ed1cf4f0cd82573b9e3f3d",
+  "sha256": "40d835582d52bd3d2d5c4d315df8a0363dfb47c792dd59e2248244a0289cf271",
   "note": "設定 versions/v12.json、versions/v12_laugh_d1.json;貼圖腳本 tools/v12_d1/tex/"
  },
  "bones": 52,
@@ -36,7 +36,9 @@
   "拿掉 Brows、Lashes 物件與其形態鍵",
   "五型皮膚:去眼線、去眼頭上方深褐陰影、依使用者畫的唇線上唇色",
   "口腔內面上色射線補打面中心(細分後的小面不再漏掉)",
-  "tex glb 皮膚材質改 OPAQUE"
+  "tex glb 皮膚材質改 OPAQUE",
+  "大笑時嘴角被口腔深色畫黑的面改回膚色;嘴角最外側暗點補平",
+  "大笑唇色兩端與嘴角側壁(使用者圈選範圍)柔化成膚色"
  ],
  "verified": [
   "4 檔回讀:骨架 52、鍵數如 meshes、預設值全 0;靜止姿勢 blend 0mm、FBX 0.0008mm",
@@ -79,6 +81,7 @@
  ],
  "reference": "../v9/reference/expr_smile_laugh_v001.png(右半大笑);並排 review/預想圖vs_v10_v11.png",
  "files": [
+  "README.md",
   "basecolor.png",
   "body_joints.json",
   "body_paint_balanced.png",
@@ -89,6 +92,7 @@
   "head_base_v12.fbx",
   "head_base_v12_clay.glb",
   "head_base_v12_tex.glb",
+  "manifest.json",
   "review",
   "skins"
  ]

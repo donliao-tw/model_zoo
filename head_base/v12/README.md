@@ -4,8 +4,8 @@
 
 ## 從哪版來
 - 上一版:v11。骨架 52 根和權重沒變;**Body 頂點數變了(70583 → 72907)**,而且**少了 Brows、Lashes 兩個物件**,Unity 的 prefab 要重新匯入。
-- 來源:3D_model_design main `b957b01`,設定 `versions/v12.json`、`versions/v12_laugh_d1.json`;貼圖腳本在 `tools/v12_d1/tex/`。
-  - `head_base_v12.fbx` SHA `b08cd24d…`(建置輸出原名 `head_base_v12_game.fbx`)。
+- 來源:3D_model_design main `8bf2462`,設定 `versions/v12.json`、`versions/v12_laugh_d1.json`;貼圖腳本在 `tools/v12_d1/tex/`。
+  - `head_base_v12.fbx` SHA `40d83558…`(建置輸出原名 `head_base_v12_game.fbx`)。
 
 | 檔案 | 內容 |
 |---|---|
@@ -24,6 +24,8 @@
 3. **皮膚貼圖(五型)**:去掉畫在眼皮上的黑眼線、眼頭上方兩塊深褐陰影;依使用者在中性圖上畫的唇線上唇色(上唇 RGB 165,105,98、下唇 185,118,112,保留原明暗、邊緣羽化)。
 4. 口腔內面上色:射線改成也朝每個面中心打,細分後的小面不會漏掉(之前嘴角會有紫黑小點)。
 5. tex glb 的皮膚材質改為 OPAQUE。
+6. **大笑嘴角**(11-07 再修):嘴角翻出來的面原本被口腔深色畫黑 → 改回膚色;嘴角最外側暗點補平;使用者圈出的「唇色太大片」兩端與嘴角兩條側壁,羽化漸變成膚色(`review/嘴角柔化_側壁.png`、`review/大笑嘴角_修前修後_卡通.png`)。中性嘴唇兩端也因此略短。
+7. `review/卡通近似渲染.png`:Blender 仿 Unity toon(兩階色帶、無自陰影、只畫外輪廓),**不是**遊戲實際 shader。
 
 形態鍵:Body 150、EyeL／EyeR 42、Mouth 9(Brows、Lashes 物件已移除)。
 
